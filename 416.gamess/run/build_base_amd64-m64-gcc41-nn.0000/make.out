@@ -1,0 +1,2 @@
+specperl /root/asterinas/asterinas/regression/apps/speccpu2006-v1.0.1/bin/specpp  -DSPEC_CPU_NO_HOLLERITH -DSPEC_CPU -DNDEBUG -DSPEC_CPU_LP64   aldeci.F -o aldeci.fppized.f
+/usr/bin/gcc/bin/gfortran -c -o aldeci.fppized.o    -O2       -DSPEC_CPU_LP64 -funconstrained-commons -std=legacy        aldeci.fppized.f

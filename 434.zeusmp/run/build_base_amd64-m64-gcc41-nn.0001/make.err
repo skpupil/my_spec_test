@@ -1,0 +1,25 @@
+linpck.f:517:72:
+
+  517 |    10 assign 30 to next
+      |                                                                        1
+Warning: Deleted feature: ASSIGN statement at (1)
+linpck.f:522:20:
+
+  522 |    20    go to next,(30, 50, 70, 110)
+      |                    1
+Warning: Deleted feature: Assigned GOTO statement at (1)
+linpck.f:524:72:
+
+  524 |       assign 50 to next
+      |                                                                        1
+Warning: Deleted feature: ASSIGN statement at (1)
+linpck.f:533:72:
+
+  533 |       assign 70 to next
+      |                                                                        1
+Warning: Deleted feature: ASSIGN statement at (1)
+linpck.f:539:72:
+
+  539 |       assign 110 to next
+      |                                                                        1
+Warning: Deleted feature: ASSIGN statement at (1)

@@ -1,0 +1,9 @@
+running commands in speccmds.cmd 1 times
+runs started at 1709399648, 839438000, Sun Mar  3 01:14:08 2024
+run 1 started at 1709399648, 839453000, Sun Mar  3 01:14:08 2024
+child started: 0, 1709399648, 839457000, pid=2627479, '../run_base_test_amd64-m64-gcc41-nn.0000/gamess_base.amd64-m64-gcc41-nn'
+child finished: 0, 1709399649, 26426000, sec=0, nsec=186969000, pid=2627479, rc=0
+run 1 finished at: 1709399649, 26432000, Sun Mar  3 01:14:09 2024
+run 1 elapsed time: 0, 186979000, 0.186979000
+runs finished at 1709399649, 26463000, Sun Mar  3 01:14:09 2024
+runs elapsed time: 0, 187025000, 0.187025000

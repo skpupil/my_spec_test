@@ -1,0 +1,1 @@
+/usr/bin/gcc/bin/gfortran -c -o advx1.o    -O2       -DSPEC_CPU_LP64         advx1.f

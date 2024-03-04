@@ -1,0 +1,9 @@
+running commands in compare.cmd 1 times
+runs started at 1709399651, 32560000, Sun Mar  3 01:14:11 2024
+run 1 started at 1709399651, 32572000, Sun Mar  3 01:14:11 2024
+child started: 0, 1709399651, 32576000, pid=2627497, 'specperl /home/kk/skpupil/dev/asterinas/regression/apps/speccpu2006/bin/specdiff -m -l 10  --abstol 1e-05  --reltol 0.0001  --ignorecase /home/kk/skpupil/dev/asterinas/regression/apps/speccpu2006/benchspec/CPU2006/416.gamess/data/test/output/exam29.out exam29.out'
+child finished: 0, 1709399651, 79208000, sec=0, nsec=46632000, pid=2627497, rc=0
+run 1 finished at: 1709399651, 79213000, Sun Mar  3 01:14:11 2024
+run 1 elapsed time: 0, 46641000, 0.046641000
+runs finished at 1709399651, 79230000, Sun Mar  3 01:14:11 2024
+runs elapsed time: 0, 46670000, 0.046670000

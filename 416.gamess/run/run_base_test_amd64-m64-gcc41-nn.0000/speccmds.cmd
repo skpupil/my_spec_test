@@ -1,0 +1,2 @@
+-C /home/kk/skpupil/dev/asterinas/regression/apps/speccpu2006/benchspec/CPU2006/416.gamess/run/run_base_test_amd64-m64-gcc41-nn.0000
+-i exam29.config -o exam29.out -e exam29.err ../run_base_test_amd64-m64-gcc41-nn.0000/gamess_base.amd64-m64-gcc41-nn

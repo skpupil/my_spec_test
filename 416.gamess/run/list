@@ -1,0 +1,4 @@
+build_base_amd64-m64-gcc41-nn.0000 dir=/root/asterinas/asterinas/regression/apps/speccpu2006-v1.0.1/benchspec/CPU2006/416.gamess/run/build_base_amd64-m64-gcc41-nn.0000 ext=amd64-m64-gcc41-nn lock=0 tune=base type=build username=root
+build_base_amd64-m64-gcc41-nn.0001 dir=/home/kk/skpupil/dev/asterinas/regression/apps/speccpu2006/benchspec/CPU2006/416.gamess/run/build_base_amd64-m64-gcc41-nn.0001 ext=amd64-m64-gcc41-nn lock=0 tune=base type=build username=root
+run_base_test_amd64-m64-gcc41-nn.0000 dir=/home/kk/skpupil/dev/asterinas/regression/apps/speccpu2006/benchspec/CPU2006/416.gamess/run/run_base_test_amd64-m64-gcc41-nn.0000 ext=amd64-m64-gcc41-nn lock=0 mach=default size=test tune=base type=run username=root
+__END__

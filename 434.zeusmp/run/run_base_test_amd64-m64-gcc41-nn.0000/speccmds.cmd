@@ -1,0 +1,2 @@
+-C /home/kk/skpupil/dev/asterinas/regression/apps/speccpu2006/benchspec/CPU2006/434.zeusmp/run/run_base_test_amd64-m64-gcc41-nn.0000
+-o zeusmp.stdout -e zeusmp.err ../run_base_test_amd64-m64-gcc41-nn.0000/zeusmp_base.amd64-m64-gcc41-nn
