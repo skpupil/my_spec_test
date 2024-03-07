@@ -1,0 +1,174 @@
+vasprintf.c:155:6: warning: 'format' attribute cannot be applied to a function that does not take variable arguments [-Wattributes]
+  155 |      char **result;
+      |      ^~~~
+cpplib.c:202:18: warning: initialization of 'const U_CHAR *' {aka 'const unsigned char *'} from incompatible pointer type 'unsigned int *' [-Wincompatible-pointer-types]
+  202 |   do_linemarker, U"#", 1, KANDR, IN_I
+      |                  ^~~~
+cpplib.c:202:18: note: (near initialization for 'linemarker_dir.name')
+cpplib.c: In function 'parse_include':
+cpplib.c:564:9: warning: assignment to 'const unsigned char *' from incompatible pointer type 'unsigned int *' [-Wincompatible-pointer-types]
+  564 |     dir = U"pragma dependency";
+      |         ^
+cpplex.c:59:3: warning: initialization of 'const unsigned char *' from incompatible pointer type 'unsigned int *' [-Wincompatible-pointer-types]
+   59 | { U"%:", U"%:%:", U"<:", U":>", U"<%", U"%>" };
+      |   ^~~~~
+cpplex.c:59:3: note: (near initialization for 'digraph_spellings[0]')
+cpplex.c:59:10: warning: initialization of 'const unsigned char *' from incompatible pointer type 'unsigned int *' [-Wincompatible-pointer-types]
+   59 | { U"%:", U"%:%:", U"<:", U":>", U"<%", U"%>" };
+      |          ^~~~~~~
+cpplex.c:59:10: note: (near initialization for 'digraph_spellings[1]')
+cpplex.c:59:19: warning: initialization of 'const unsigned char *' from incompatible pointer type 'unsigned int *' [-Wincompatible-pointer-types]
+   59 | { U"%:", U"%:%:", U"<:", U":>", U"<%", U"%>" };
+      |                   ^~~~~
+cpplex.c:59:19: note: (near initialization for 'digraph_spellings[2]')
+cpplex.c:59:26: warning: initialization of 'const unsigned char *' from incompatible pointer type 'unsigned int *' [-Wincompatible-pointer-types]
+   59 | { U"%:", U"%:%:", U"<:", U":>", U"<%", U"%>" };
+      |                          ^~~~~
+cpplex.c:59:26: note: (near initialization for 'digraph_spellings[3]')
+cpplex.c:59:33: warning: initialization of 'const unsigned char *' from incompatible pointer type 'unsigned int *' [-Wincompatible-pointer-types]
+   59 | { U"%:", U"%:%:", U"<:", U":>", U"<%", U"%>" };
+      |                                 ^~~~~
+cpplex.c:59:33: note: (near initialization for 'digraph_spellings[4]')
+cpplex.c:59:40: warning: initialization of 'const unsigned char *' from incompatible pointer type 'unsigned int *' [-Wincompatible-pointer-types]
+   59 | { U"%:", U"%:%:", U"<:", U":>", U"<%", U"%>" };
+      |                                        ^~~~~
+cpplex.c:59:40: note: (near initialization for 'digraph_spellings[5]')
+alias.c: In function 'end_alias_analysis':
+alias.c:2688:3: warning: 'free' called on pointer 'reg_known_value' with nonzero offset 424 [-Wfree-nonheap-object]
+ 2688 |   free (reg_known_value + FIRST_PSEUDO_REGISTER);
+      |   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+alias.c:170:6: note: declared here
+  170 | rtx *reg_known_value;
+      |      ^~~~~~~~~~~~~~~
+alias.c:2691:3: warning: 'free' called on pointer 'reg_known_equiv_p' with nonzero offset 53 [-Wfree-nonheap-object]
+ 2691 |   free (reg_known_equiv_p + FIRST_PSEUDO_REGISTER);
+      |   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+alias.c:187:7: note: declared here
+  187 | char *reg_known_equiv_p;
+      |       ^~~~~~~~~~~~~~~~~
+diagnostic.c:745:6: warning: 'format' attribute cannot be applied to a function that does not take variable arguments [-Wattributes]
+  745 |      const char *msg;
+      |      ^~~~~
+diagnostic.c:810:6: warning: 'format' attribute cannot be applied to a function that does not take variable arguments [-Wattributes]
+  810 |      output_buffer *buffer;
+      |      ^~~~~~~~~~~~~
+diagnostic.c: In function 'vbuild_message_string':
+diagnostic.c:750:3: warning: ignoring return value of 'vasprintf' declared with attribute 'warn_unused_result' [-Wunused-result]
+  750 |   vasprintf (&str, msg, ap);
+      |   ^~~~~~~~~~~~~~~~~~~~~~~~~
+final.c: In function 'output_operand_lossage':
+final.c:2971:3: warning: ignoring return value of 'asprintf' declared with attribute 'warn_unused_result' [-Wunused-result]
+ 2971 |   asprintf (&fmt_string, "%s%s", pfx_str, _(msgid));
+      |   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+final.c:2972:3: warning: ignoring return value of 'vasprintf' declared with attribute 'warn_unused_result' [-Wunused-result]
+ 2972 |   vasprintf (&new_message, fmt_string, ap);
+      |   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+print-tree.c: In function 'print_node':
+print-tree.c:722:35: warning: '%d' directive writing between 1 and 10 bytes into a region of size 7 [-Wformat-overflow=]
+  722 |                 sprintf (buf, "elt%d: ", i);
+      |                                   ^~
+print-tree.c:722:31: note: directive argument in the range [0, 2147483647]
+  722 |                 sprintf (buf, "elt%d: ", i);
+      |                               ^~~~~~~~~
+In file included from /usr/include/stdio.h:894,
+                 from system.h:50,
+                 from print-tree.c:24:
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:38:10: note: '__builtin___sprintf_chk' output between 7 and 16 bytes into a destination of size 10
+   38 |   return __builtin___sprintf_chk (__s, __USE_FORTIFY_LEVEL - 1,
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   39 |                                   __glibc_objsize (__s), __fmt,
+      |                                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   40 |                                   __va_arg_pack ());
+      |                                   ~~~~~~~~~~~~~~~~~
+print-tree.c:758:37: warning: '%d' directive writing between 1 and 10 bytes into a region of size 6 [-Wformat-overflow=]
+  758 |                 sprintf (temp, "elt %d", i);
+      |                                     ^~
+print-tree.c:758:32: note: directive argument in the range [0, 2147483646]
+  758 |                 sprintf (temp, "elt %d", i);
+      |                                ^~~~~~~~
+In file included from /usr/include/stdio.h:894,
+                 from system.h:50,
+                 from print-tree.c:24:
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:38:10: note: '__builtin___sprintf_chk' output between 6 and 15 bytes into a destination of size 10
+   38 |   return __builtin___sprintf_chk (__s, __USE_FORTIFY_LEVEL - 1,
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   39 |                                   __glibc_objsize (__s), __fmt,
+      |                                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   40 |                                   __va_arg_pack ());
+      |                                   ~~~~~~~~~~~~~~~~~
+print-tree.c:639:35: warning: '%d' directive writing between 1 and 10 bytes into a region of size 6 [-Wformat-overflow=]
+  639 |               sprintf (temp, "arg %d", i);
+      |                                   ^~
+print-tree.c:639:30: note: directive argument in the range [0, 2147483646]
+  639 |               sprintf (temp, "arg %d", i);
+      |                              ^~~~~~~~
+In file included from /usr/include/stdio.h:894,
+                 from system.h:50,
+                 from print-tree.c:24:
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:38:10: note: '__builtin___sprintf_chk' output between 6 and 15 bytes into a destination of size 10
+   38 |   return __builtin___sprintf_chk (__s, __USE_FORTIFY_LEVEL - 1,
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   39 |                                   __glibc_objsize (__s), __fmt,
+      |                                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   40 |                                   __va_arg_pack ());
+      |                                   ~~~~~~~~~~~~~~~~~
+sched-vis.c: In function 'print_pattern.constprop':
+sched-vis.c:734:29: warning: '%s' directive writing up to 2047 bytes into a region of size between 1 and 2048 [-Wformat-overflow=]
+  734 |             sprintf (t3, "%s%s;", t1, t2);
+      |                             ^~        ~~
+In file included from /usr/include/stdio.h:894,
+                 from system.h:50,
+                 from sched-vis.c:25:
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:38:10: note: '__builtin___sprintf_chk' output between 2 and 4096 bytes into a destination of size 2048
+   38 |   return __builtin___sprintf_chk (__s, __USE_FORTIFY_LEVEL - 1,
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   39 |                                   __glibc_objsize (__s), __fmt,
+      |                                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   40 |                                   __va_arg_pack ());
+      |                                   ~~~~~~~~~~~~~~~~~
+sched-vis.c:720:32: warning: '__builtin___sprintf_chk' may write a terminating nul past the end of the destination [-Wformat-overflow=]
+  720 |             sprintf (t3, "%s%s;", t1, t2);
+      |                                ^
+In file included from /usr/include/stdio.h:894,
+                 from system.h:50,
+                 from sched-vis.c:25:
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:38:10: note: '__builtin___sprintf_chk' output 2 or more bytes (assuming 2049) into a destination of size 2048
+   38 |   return __builtin___sprintf_chk (__s, __USE_FORTIFY_LEVEL - 1,
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   39 |                                   __glibc_objsize (__s), __fmt,
+      |                                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   40 |                                   __va_arg_pack ());
+      |                                   ~~~~~~~~~~~~~~~~~
+sched-vis.c:680:32: warning: '__builtin___sprintf_chk' may write a terminating nul past the end of the destination [-Wformat-overflow=]
+  680 |             sprintf (t3, "%s%s;", t1, t2);
+      |                                ^
+In file included from /usr/include/stdio.h:894,
+                 from system.h:50,
+                 from sched-vis.c:25:
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:38:10: note: '__builtin___sprintf_chk' output 2 or more bytes (assuming 2049) into a destination of size 2048
+   38 |   return __builtin___sprintf_chk (__s, __USE_FORTIFY_LEVEL - 1,
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   39 |                                   __glibc_objsize (__s), __fmt,
+      |                                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   40 |                                   __va_arg_pack ());
+      |                                   ~~~~~~~~~~~~~~~~~
+sched-vis.c:694:32: warning: '__builtin___sprintf_chk' may write a terminating nul past the end of the destination [-Wformat-overflow=]
+  694 |             sprintf (t3, "%s%s;", t1, t2);
+      |                                ^
+In file included from /usr/include/stdio.h:894,
+                 from system.h:50,
+                 from sched-vis.c:25:
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:38:10: note: '__builtin___sprintf_chk' output 2 or more bytes (assuming 2049) into a destination of size 2048
+   38 |   return __builtin___sprintf_chk (__s, __USE_FORTIFY_LEVEL - 1,
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   39 |                                   __glibc_objsize (__s), __fmt,
+      |                                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   40 |                                   __va_arg_pack ());
+      |                                   ~~~~~~~~~~~~~~~~~
+ggc-page.c: In function 'ggc_print_statistics':
+ggc-page.c:1523:28: warning: format '%d' expects argument of type 'int', but argument 3 has type 'size_t' {aka 'long unsigned int'} [-Wformat=]
+ 1523 |       fprintf (stderr, "%-5d %10ld%c %10ld%c %10ld%c\n", OBJECT_SIZE (i),
+      |                         ~~~^
+      |                            |
+      |                            int
+      |                         %-5ld

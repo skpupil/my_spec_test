@@ -1,0 +1,398 @@
+/usr/bin/gcc -c -o CalculiX.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         CalculiX.c
+/usr/bin/gfortran -c -o add_pr.o -ISPOOLES   -O2       -DSPEC_CPU_LP64         add_pr.f
+/usr/bin/gfortran -c -o add_sm_ei.o -ISPOOLES   -O2       -DSPEC_CPU_LP64         add_sm_ei.f
+/usr/bin/gfortran -c -o add_sm_st.o -ISPOOLES   -O2       -DSPEC_CPU_LP64         add_sm_st.f
+/usr/bin/gfortran -c -o allocation.o -ISPOOLES   -O2       -DSPEC_CPU_LP64         allocation.f
+/usr/bin/gfortran -c -o amplitudes.o -ISPOOLES   -O2       -DSPEC_CPU_LP64         amplitudes.f
+/usr/bin/gfortran -c -o anisotropic.o -ISPOOLES   -O2       -DSPEC_CPU_LP64         anisotropic.f
+/usr/bin/gfortran -c -o beamsections.o -ISPOOLES   -O2       -DSPEC_CPU_LP64         beamsections.f
+/usr/bin/gfortran -c -o bounadd.o -ISPOOLES   -O2       -DSPEC_CPU_LP64         bounadd.f
+/usr/bin/gfortran -c -o boundaries.o -ISPOOLES   -O2       -DSPEC_CPU_LP64         boundaries.f
+/usr/bin/gfortran -c -o buckles.o -ISPOOLES   -O2       -DSPEC_CPU_LP64         buckles.f
+/usr/bin/gfortran -c -o calinput.o -ISPOOLES   -O2       -DSPEC_CPU_LP64         calinput.f
+/usr/bin/gfortran -c -o cfluxes.o -ISPOOLES   -O2       -DSPEC_CPU_LP64         cfluxes.f
+/usr/bin/gfortran -c -o changedepterm.o -ISPOOLES   -O2       -DSPEC_CPU_LP64         changedepterm.f
+/usr/bin/gfortran -c -o cloads.o -ISPOOLES   -O2       -DSPEC_CPU_LP64         cloads.f
+/usr/bin/gfortran -c -o conductivities.o -ISPOOLES   -O2       -DSPEC_CPU_LP64         conductivities.f
+/usr/bin/gfortran -c -o controlss.o -ISPOOLES   -O2       -DSPEC_CPU_LP64         controlss.f
+/usr/bin/gfortran -c -o couptempdisps.o -ISPOOLES   -O2       -DSPEC_CPU_LP64         couptempdisps.f
+/usr/bin/gfortran -c -o creeps.o -ISPOOLES   -O2       -DSPEC_CPU_LP64         creeps.f
+/usr/bin/gfortran -c -o cychards.o -ISPOOLES   -O2       -DSPEC_CPU_LP64         cychards.f
+/usr/bin/gfortran -c -o cycsymmods.o -ISPOOLES   -O2       -DSPEC_CPU_LP64         cycsymmods.f
+/usr/bin/gfortran -c -o dasol.o -ISPOOLES   -O2       -DSPEC_CPU_LP64         dasol.f
+/usr/bin/gfortran -c -o datest.o -ISPOOLES   -O2       -DSPEC_CPU_LP64         datest.f
+/usr/bin/gfortran -c -o datri.o -ISPOOLES   -O2       -DSPEC_CPU_LP64         datri.f
+/usr/bin/gfortran -c -o defplasticities.o -ISPOOLES   -O2       -DSPEC_CPU_LP64         defplasticities.f
+/usr/bin/gfortran -c -o defplas.o -ISPOOLES   -O2       -DSPEC_CPU_LP64         defplas.f
+/usr/bin/gfortran -c -o densities.o -ISPOOLES   -O2       -DSPEC_CPU_LP64         densities.f
+/usr/bin/gfortran -c -o depvars.o -ISPOOLES   -O2       -DSPEC_CPU_LP64         depvars.f
+/usr/bin/gfortran -c -o deuldlag.o -ISPOOLES   -O2       -DSPEC_CPU_LP64         deuldlag.f
+/usr/bin/gfortran -c -o dfluxes.o -ISPOOLES   -O2       -DSPEC_CPU_LP64         dfluxes.f
+/usr/bin/gfortran -c -o dgesv.o -ISPOOLES   -O2       -DSPEC_CPU_LP64         dgesv.f
+/usr/bin/gfortran -c -o diamtr.o -ISPOOLES   -O2       -DSPEC_CPU_LP64         diamtr.f
+/usr/bin/gfortran -c -o dloads.o -ISPOOLES   -O2       -DSPEC_CPU_LP64         dloads.f
+/usr/bin/gfortran -c -o dot.o -ISPOOLES   -O2       -DSPEC_CPU_LP64         dot.f
+/usr/bin/gfortran -c -o dredu.o -ISPOOLES   -O2       -DSPEC_CPU_LP64         dredu.f
+/usr/bin/gfortran -c -o dsort.o -ISPOOLES   -O2       -DSPEC_CPU_LP64         dsort.f
+/usr/bin/gfortran -c -o dynamics.o -ISPOOLES   -O2       -DSPEC_CPU_LP64         dynamics.f
+/usr/bin/gfortran -c -o dynsolv.o -ISPOOLES   -O2       -DSPEC_CPU_LP64         dynsolv.f
+/usr/bin/gfortran -c -o el.o -ISPOOLES   -O2       -DSPEC_CPU_LP64         el.f
+/usr/bin/gfortran -c -o elastics.o -ISPOOLES   -O2       -DSPEC_CPU_LP64         elastics.f
+/usr/bin/gfortran -c -o elements.o -ISPOOLES   -O2       -DSPEC_CPU_LP64         elements.f
+/usr/bin/gfortran -c -o elprints.o -ISPOOLES   -O2       -DSPEC_CPU_LP64         elprints.f
+/usr/bin/gfortran -c -o envtemp.o -ISPOOLES   -O2       -DSPEC_CPU_LP64         envtemp.f
+/usr/bin/gfortran -c -o equations.o -ISPOOLES   -O2       -DSPEC_CPU_LP64         equations.f
+/usr/bin/gfortran -c -o expansions.o -ISPOOLES   -O2       -DSPEC_CPU_LP64         expansions.f
+/usr/bin/gfortran -c -o extrapolate.o -ISPOOLES   -O2       -DSPEC_CPU_LP64         extrapolate.f
+/usr/bin/gfortran -c -o e_c3d.o -ISPOOLES   -O2       -DSPEC_CPU_LP64         e_c3d.f
+/usr/bin/gfortran -c -o e_c3d_th.o -ISPOOLES   -O2       -DSPEC_CPU_LP64         e_c3d_th.f
+/usr/bin/gfortran -c -o e_c3d_rhs.o -ISPOOLES   -O2       -DSPEC_CPU_LP64         e_c3d_rhs.f
+/usr/bin/gfortran -c -o fcrit.o -ISPOOLES   -O2       -DSPEC_CPU_LP64         fcrit.f
+/usr/bin/gfortran -c -o films.o -ISPOOLES   -O2       -DSPEC_CPU_LP64         films.f
+/usr/bin/gfortran -c -o finpro.o -ISPOOLES   -O2       -DSPEC_CPU_LP64         finpro.f
+/usr/bin/gfortran -c -o forcadd.o -ISPOOLES   -O2       -DSPEC_CPU_LP64         forcadd.f
+specperl /home/kk/skpupil/dev/asterinas/regression/apps/speccpu2006/bin/specpp   -DSPEC_CPU -DNDEBUG -DSPEC_CPU_LP64   frd.F -o frd.fppized.f
+/usr/bin/gfortran -c -o frd.fppized.o -ISPOOLES   -O2       -DSPEC_CPU_LP64         frd.fppized.f
+/usr/bin/gfortran -c -o frdclose.o -ISPOOLES   -O2       -DSPEC_CPU_LP64         frdclose.f
+/usr/bin/gfortran -c -o frequencies.o -ISPOOLES   -O2       -DSPEC_CPU_LP64         frequencies.f
+/usr/bin/gfortran -c -o fsub.o -ISPOOLES   -O2       -DSPEC_CPU_LP64         fsub.f
+/usr/bin/gfortran -c -o fsuper.o -ISPOOLES   -O2       -DSPEC_CPU_LP64         fsuper.f
+/usr/bin/gfortran -c -o gen3delem.o -ISPOOLES   -O2       -DSPEC_CPU_LP64         gen3delem.f
+/usr/bin/gfortran -c -o genran.o -ISPOOLES   -O2       -DSPEC_CPU_LP64         genran.f
+/usr/bin/gfortran -c -o getnewline.o -ISPOOLES   -O2       -DSPEC_CPU_LP64         getnewline.f
+/usr/bin/gfortran -c -o graph.o -ISPOOLES   -O2       -DSPEC_CPU_LP64         graph.f
+/usr/bin/gfortran -c -o headings.o -ISPOOLES   -O2       -DSPEC_CPU_LP64         headings.f
+/usr/bin/gfortran -c -o heattransfers.o -ISPOOLES   -O2       -DSPEC_CPU_LP64         heattransfers.f
+/usr/bin/gfortran -c -o hyperel.o -ISPOOLES   -O2       -DSPEC_CPU_LP64         hyperel.f
+/usr/bin/gfortran -c -o hyperelastics.o -ISPOOLES   -O2       -DSPEC_CPU_LP64         hyperelastics.f
+/usr/bin/gfortran -c -o hyperfoams.o -ISPOOLES   -O2       -DSPEC_CPU_LP64         hyperfoams.f
+/usr/bin/gfortran -c -o ident.o -ISPOOLES   -O2       -DSPEC_CPU_LP64         ident.f
+/usr/bin/gfortran -c -o ident2.o -ISPOOLES   -O2       -DSPEC_CPU_LP64         ident2.f
+/usr/bin/gfortran -c -o include.o -ISPOOLES   -O2       -DSPEC_CPU_LP64         include.f
+/usr/bin/gfortran -c -o incplas.o -ISPOOLES   -O2       -DSPEC_CPU_LP64         incplas.f
+/usr/bin/gfortran -c -o initialconditions.o -ISPOOLES   -O2       -DSPEC_CPU_LP64         initialconditions.f
+/usr/bin/gfortran -c -o inputerror.o -ISPOOLES   -O2       -DSPEC_CPU_LP64         inputerror.f
+/usr/bin/gfortran -c -o isorti.o -ISPOOLES   -O2       -DSPEC_CPU_LP64         isorti.f
+/usr/bin/gfortran -c -o isortid.o -ISPOOLES   -O2       -DSPEC_CPU_LP64         isortid.f
+/usr/bin/gfortran -c -o isortidc.o -ISPOOLES   -O2       -DSPEC_CPU_LP64         isortidc.f
+/usr/bin/gfortran -c -o isortii.o -ISPOOLES   -O2       -DSPEC_CPU_LP64         isortii.f
+/usr/bin/gfortran -c -o isortiid.o -ISPOOLES   -O2       -DSPEC_CPU_LP64         isortiid.f
+/usr/bin/gfortran -c -o label.o -ISPOOLES   -O2       -DSPEC_CPU_LP64         label.f
+/usr/bin/gfortran -c -o linel.o -ISPOOLES   -O2       -DSPEC_CPU_LP64         linel.f
+/usr/bin/gfortran -c -o lintemp.o -ISPOOLES   -O2       -DSPEC_CPU_LP64         lintemp.f
+/usr/bin/gfortran -c -o lintemp_th.o -ISPOOLES   -O2       -DSPEC_CPU_LP64         lintemp_th.f
+/usr/bin/gfortran -c -o loadadd.o -ISPOOLES   -O2       -DSPEC_CPU_LP64         loadadd.f
+/usr/bin/gfortran -c -o loadaddt.o -ISPOOLES   -O2       -DSPEC_CPU_LP64         loadaddt.f
+/usr/bin/gfortran -c -o mafillpr.o -ISPOOLES   -O2       -DSPEC_CPU_LP64         mafillpr.f
+/usr/bin/gfortran -c -o mafillsm.o -ISPOOLES   -O2       -DSPEC_CPU_LP64         mafillsm.f
+/usr/bin/gfortran -c -o mafillsmcs.o -ISPOOLES   -O2       -DSPEC_CPU_LP64         mafillsmcs.f
+/usr/bin/gfortran -c -o massflowrates.o -ISPOOLES   -O2       -DSPEC_CPU_LP64         massflowrates.f
+/usr/bin/gfortran -c -o matdata_co.o -ISPOOLES   -O2       -DSPEC_CPU_LP64         matdata_co.f
+/usr/bin/gfortran -c -o matdata_he.o -ISPOOLES   -O2       -DSPEC_CPU_LP64         matdata_he.f
+/usr/bin/gfortran -c -o matdata_tg.o -ISPOOLES   -O2       -DSPEC_CPU_LP64         matdata_tg.f
+/usr/bin/gfortran -c -o materialdata.o -ISPOOLES   -O2       -DSPEC_CPU_LP64         materialdata.f
+/usr/bin/gfortran -c -o materials.o -ISPOOLES   -O2       -DSPEC_CPU_LP64         materials.f
+/usr/bin/gfortran -c -o modaldampings.o -ISPOOLES   -O2       -DSPEC_CPU_LP64         modaldampings.f
+/usr/bin/gfortran -c -o modaldynamics.o -ISPOOLES   -O2       -DSPEC_CPU_LP64         modaldynamics.f
+/usr/bin/gfortran -c -o mpcs.o -ISPOOLES   -O2       -DSPEC_CPU_LP64         mpcs.f
+/usr/bin/gfortran -c -o nident.o -ISPOOLES   -O2       -DSPEC_CPU_LP64         nident.f
+/usr/bin/gfortran -c -o nident2.o -ISPOOLES   -O2       -DSPEC_CPU_LP64         nident2.f
+/usr/bin/gfortran -c -o near2d.o -ISPOOLES   -O2       -DSPEC_CPU_LP64         near2d.f
+/usr/bin/gfortran -c -o noanalysis.o -ISPOOLES   -O2       -DSPEC_CPU_LP64         noanalysis.f
+/usr/bin/gfortran -c -o nodalthicknesses.o -ISPOOLES   -O2       -DSPEC_CPU_LP64         nodalthicknesses.f
+/usr/bin/gfortran -c -o nodeprints.o -ISPOOLES   -O2       -DSPEC_CPU_LP64         nodeprints.f
+/usr/bin/gfortran -c -o nodes.o -ISPOOLES   -O2       -DSPEC_CPU_LP64         nodes.f
+/usr/bin/gfortran -c -o noelfiles.o -ISPOOLES   -O2       -DSPEC_CPU_LP64         noelfiles.f
+/usr/bin/gfortran -c -o noelsets.o -ISPOOLES   -O2       -DSPEC_CPU_LP64         noelsets.f
+/usr/bin/gfortran -c -o nonlinmpc.o -ISPOOLES   -O2       -DSPEC_CPU_LP64         nonlinmpc.f
+/usr/bin/gfortran -c -o normals.o -ISPOOLES   -O2       -DSPEC_CPU_LP64         normals.f
+/usr/bin/gfortran -c -o norshell.o -ISPOOLES   -O2       -DSPEC_CPU_LP64         norshell.f
+/usr/bin/gfortran -c -o number.o -ISPOOLES   -O2       -DSPEC_CPU_LP64         number.f
+/usr/bin/gfortran -c -o onf.o -ISPOOLES   -O2       -DSPEC_CPU_LP64         onf.f
+/usr/bin/gfortran -c -o op.o -ISPOOLES   -O2       -DSPEC_CPU_LP64         op.f
+/usr/bin/gfortran -c -o openfile.o -ISPOOLES   -O2       -DSPEC_CPU_LP64         openfile.f
+/usr/bin/gfortran -c -o orientations.o -ISPOOLES   -O2       -DSPEC_CPU_LP64         orientations.f
+/usr/bin/gfortran -c -o orthonl.o -ISPOOLES   -O2       -DSPEC_CPU_LP64         orthonl.f
+/usr/bin/gfortran -c -o orthotropic.o -ISPOOLES   -O2       -DSPEC_CPU_LP64         orthotropic.f
+/usr/bin/gfortran -c -o out.o -ISPOOLES   -O2       -DSPEC_CPU_LP64         out.f
+/usr/bin/gfortran -c -o parser.o -ISPOOLES   -O2       -DSPEC_CPU_LP64         parser.f
+/usr/bin/gfortran -c -o physicalconstants.o -ISPOOLES   -O2       -DSPEC_CPU_LP64         physicalconstants.f
+/usr/bin/gfortran -c -o planempc.o -ISPOOLES   -O2       -DSPEC_CPU_LP64         planempc.f
+/usr/bin/gfortran -c -o plastics.o -ISPOOLES   -O2       -DSPEC_CPU_LP64         plastics.f
+/usr/bin/gfortran -c -o plcopy.o -ISPOOLES   -O2       -DSPEC_CPU_LP64         plcopy.f
+/usr/bin/gfortran -c -o plinterpol.o -ISPOOLES   -O2       -DSPEC_CPU_LP64         plinterpol.f
+/usr/bin/gfortran -c -o plmix.o -ISPOOLES   -O2       -DSPEC_CPU_LP64         plmix.f
+/usr/bin/gfortran -c -o polynom.o -ISPOOLES   -O2       -DSPEC_CPU_LP64         polynom.f
+/usr/bin/gfortran -c -o profil.o -ISPOOLES   -O2       -DSPEC_CPU_LP64         profil.f
+/usr/bin/gfortran -c -o radflowload.o -ISPOOLES   -O2       -DSPEC_CPU_LP64         radflowload.f
+/usr/bin/gfortran -c -o radiates.o -ISPOOLES   -O2       -DSPEC_CPU_LP64         radiates.f
+/usr/bin/gfortran -c -o ranewr.o -ISPOOLES   -O2       -DSPEC_CPU_LP64         ranewr.f
+/usr/bin/gfortran -c -o rearrange.o -ISPOOLES   -O2       -DSPEC_CPU_LP64         rearrange.f
+/usr/bin/gfortran -c -o rectcyl.o -ISPOOLES   -O2       -DSPEC_CPU_LP64         rectcyl.f
+/usr/bin/gfortran -c -o renumber.o -ISPOOLES   -O2       -DSPEC_CPU_LP64         renumber.f
+/usr/bin/gfortran -c -o restartread.o -ISPOOLES   -O2       -DSPEC_CPU_LP64         restartread.f
+/usr/bin/gfortran -c -o restarts.o -ISPOOLES   -O2       -DSPEC_CPU_LP64         restarts.f
+/usr/bin/gfortran -c -o restartshort.o -ISPOOLES   -O2       -DSPEC_CPU_LP64         restartshort.f
+/usr/bin/gfortran -c -o restartwrite.o -ISPOOLES   -O2       -DSPEC_CPU_LP64         restartwrite.f
+/usr/bin/gfortran -c -o results.o -ISPOOLES   -O2       -DSPEC_CPU_LP64         results.f
+/usr/bin/gfortran -c -o rhs.o -ISPOOLES   -O2       -DSPEC_CPU_LP64         rhs.f
+/usr/bin/gfortran -c -o rigidbodies.o -ISPOOLES   -O2       -DSPEC_CPU_LP64         rigidbodies.f
+/usr/bin/gfortran -c -o rigidmpc.o -ISPOOLES   -O2       -DSPEC_CPU_LP64         rigidmpc.f
+/usr/bin/gfortran -c -o rootls.o -ISPOOLES   -O2       -DSPEC_CPU_LP64         rootls.f
+/usr/bin/gfortran -c -o rubber.o -ISPOOLES   -O2       -DSPEC_CPU_LP64         rubber.f
+/usr/bin/gfortran -c -o saxpb.o -ISPOOLES   -O2       -DSPEC_CPU_LP64         saxpb.f
+/usr/bin/gfortran -c -o selcycsymmods.o -ISPOOLES   -O2       -DSPEC_CPU_LP64         selcycsymmods.f
+/usr/bin/gfortran -c -o shape3tri.o -ISPOOLES   -O2       -DSPEC_CPU_LP64         shape3tri.f
+/usr/bin/gfortran -c -o shape4q.o -ISPOOLES   -O2       -DSPEC_CPU_LP64         shape4q.f
+/usr/bin/gfortran -c -o shape4tet.o -ISPOOLES   -O2       -DSPEC_CPU_LP64         shape4tet.f
+/usr/bin/gfortran -c -o shape6tri.o -ISPOOLES   -O2       -DSPEC_CPU_LP64         shape6tri.f
+/usr/bin/gfortran -c -o shape6w.o -ISPOOLES   -O2       -DSPEC_CPU_LP64         shape6w.f
+/usr/bin/gfortran -c -o shape8h.o -ISPOOLES   -O2       -DSPEC_CPU_LP64         shape8h.f
+/usr/bin/gfortran -c -o shape8q.o -ISPOOLES   -O2       -DSPEC_CPU_LP64         shape8q.f
+/usr/bin/gfortran -c -o shape10tet.o -ISPOOLES   -O2       -DSPEC_CPU_LP64         shape10tet.f
+/usr/bin/gfortran -c -o shape15w.o -ISPOOLES   -O2       -DSPEC_CPU_LP64         shape15w.f
+/usr/bin/gfortran -c -o shape20h.o -ISPOOLES   -O2       -DSPEC_CPU_LP64         shape20h.f
+/usr/bin/gfortran -c -o shellsections.o -ISPOOLES   -O2       -DSPEC_CPU_LP64         shellsections.f
+/usr/bin/gfortran -c -o skip.o -ISPOOLES   -O2       -DSPEC_CPU_LP64         skip.f
+/usr/bin/gfortran -c -o solidsections.o -ISPOOLES   -O2       -DSPEC_CPU_LP64         solidsections.f
+/usr/bin/gfortran -c -o spcmatch.o -ISPOOLES   -O2       -DSPEC_CPU_LP64         spcmatch.f
+/usr/bin/gfortran -c -o specificheats.o -ISPOOLES   -O2       -DSPEC_CPU_LP64         specificheats.f
+/usr/bin/gfortran -c -o statics.o -ISPOOLES   -O2       -DSPEC_CPU_LP64         statics.f
+/usr/bin/gfortran -c -o steps.o -ISPOOLES   -O2       -DSPEC_CPU_LP64         steps.f
+/usr/bin/gfortran -c -o stiff2mat.o -ISPOOLES   -O2       -DSPEC_CPU_LP64         stiff2mat.f
+/usr/bin/gfortran -c -o stop.o -ISPOOLES   -O2       -DSPEC_CPU_LP64         stop.f
+/usr/bin/gfortran -c -o str2mat.o -ISPOOLES   -O2       -DSPEC_CPU_LP64         str2mat.f
+/usr/bin/gfortran -c -o straightmpc.o -ISPOOLES   -O2       -DSPEC_CPU_LP64         straightmpc.f
+/usr/bin/gfortran -c -o surfaces.o -ISPOOLES   -O2       -DSPEC_CPU_LP64         surfaces.f
+/usr/bin/gfortran -c -o temperatures.o -ISPOOLES   -O2       -DSPEC_CPU_LP64         temperatures.f
+/usr/bin/gfortran -c -o tempload.o -ISPOOLES   -O2       -DSPEC_CPU_LP64         tempload.f
+/usr/bin/gfortran -c -o ties.o -ISPOOLES   -O2       -DSPEC_CPU_LP64         ties.f
+/usr/bin/gfortran -c -o transformatrix.o -ISPOOLES   -O2       -DSPEC_CPU_LP64         transformatrix.f
+/usr/bin/gfortran -c -o transforms.o -ISPOOLES   -O2       -DSPEC_CPU_LP64         transforms.f
+/usr/bin/gfortran -c -o ucreep.o -ISPOOLES   -O2       -DSPEC_CPU_LP64         ucreep.f
+/usr/bin/gfortran -c -o uhardening.o -ISPOOLES   -O2       -DSPEC_CPU_LP64         uhardening.f
+/usr/bin/gfortran -c -o umat.o -ISPOOLES   -O2       -DSPEC_CPU_LP64         umat.f
+/usr/bin/gfortran -c -o umat_aniso_creep.o -ISPOOLES   -O2       -DSPEC_CPU_LP64         umat_aniso_creep.f
+/usr/bin/gfortran -c -o umat_aniso_plas.o -ISPOOLES   -O2       -DSPEC_CPU_LP64         umat_aniso_plas.f
+/usr/bin/gfortran -c -o umat_elastic_fiber.o -ISPOOLES   -O2       -DSPEC_CPU_LP64         umat_elastic_fiber.f
+/usr/bin/gfortran -c -o umat_ideal_gas.o -ISPOOLES   -O2       -DSPEC_CPU_LP64         umat_ideal_gas.f
+/usr/bin/gfortran -c -o umat_lin_iso_el.o -ISPOOLES   -O2       -DSPEC_CPU_LP64         umat_lin_iso_el.f
+/usr/bin/gfortran -c -o umat_single_crystal.o -ISPOOLES   -O2       -DSPEC_CPU_LP64         umat_single_crystal.f
+/usr/bin/gfortran -c -o umat_tension_only.o -ISPOOLES   -O2       -DSPEC_CPU_LP64         umat_tension_only.f
+/usr/bin/gfortran -c -o umat_user.o -ISPOOLES   -O2       -DSPEC_CPU_LP64         umat_user.f
+/usr/bin/gfortran -c -o umpc_mean_rot.o -ISPOOLES   -O2       -DSPEC_CPU_LP64         umpc_mean_rot.f
+/usr/bin/gfortran -c -o umpc_user.o -ISPOOLES   -O2       -DSPEC_CPU_LP64         umpc_user.f
+/usr/bin/gfortran -c -o usermaterials.o -ISPOOLES   -O2       -DSPEC_CPU_LP64         usermaterials.f
+/usr/bin/gfortran -c -o usermpc.o -ISPOOLES   -O2       -DSPEC_CPU_LP64         usermpc.f
+/usr/bin/gfortran -c -o viscos.o -ISPOOLES   -O2       -DSPEC_CPU_LP64         viscos.f
+/usr/bin/gfortran -c -o wcoef.o -ISPOOLES   -O2       -DSPEC_CPU_LP64         wcoef.f
+/usr/bin/gfortran -c -o writebv.o -ISPOOLES   -O2       -DSPEC_CPU_LP64         writebv.f
+/usr/bin/gfortran -c -o writeev.o -ISPOOLES   -O2       -DSPEC_CPU_LP64         writeev.f
+/usr/bin/gfortran -c -o writeevcs.o -ISPOOLES   -O2       -DSPEC_CPU_LP64         writeevcs.f
+/usr/bin/gfortran -c -o writempc.o -ISPOOLES   -O2       -DSPEC_CPU_LP64         writempc.f
+/usr/bin/gfortran -c -o writesummary.o -ISPOOLES   -O2       -DSPEC_CPU_LP64         writesummary.f
+/usr/bin/gcc -c -o cascade.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         cascade.c
+/usr/bin/gcc -c -o frdcyc.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         frdcyc.c
+/usr/bin/gcc -c -o insert.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         insert.c
+/usr/bin/gcc -c -o mastruct.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         mastruct.c
+/usr/bin/gcc -c -o mastructcs.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         mastructcs.c
+/usr/bin/gcc -c -o nonlingeo.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         nonlingeo.c
+/usr/bin/gcc -c -o pcgsolver.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         pcgsolver.c
+/usr/bin/gcc -c -o preiter.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         preiter.c
+/usr/bin/gcc -c -o prespooles.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         prespooles.c
+/usr/bin/gcc -c -o profile.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         profile.c
+/usr/bin/gcc -c -o remastruct.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         remastruct.c
+/usr/bin/gcc -c -o spooles.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         spooles.c
+/usr/bin/gcc -c -o strcmp1.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         strcmp1.c
+/usr/bin/gcc -c -o strcpy1.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         strcpy1.c
+/usr/bin/gcc -c -o u_calloc.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         u_calloc.c
+/usr/bin/gcc -c -o SPOOLES/A2/src/A2_IO.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         SPOOLES/A2/src/A2_IO.c
+/usr/bin/gcc -c -o SPOOLES/A2/src/A2_basics.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         SPOOLES/A2/src/A2_basics.c
+/usr/bin/gcc -c -o SPOOLES/A2/src/A2_init.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         SPOOLES/A2/src/A2_init.c
+/usr/bin/gcc -c -o SPOOLES/A2/src/A2_instance.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         SPOOLES/A2/src/A2_instance.c
+/usr/bin/gcc -c -o SPOOLES/A2/src/A2_norms.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         SPOOLES/A2/src/A2_norms.c
+/usr/bin/gcc -c -o SPOOLES/A2/src/A2_sort.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         SPOOLES/A2/src/A2_sort.c
+/usr/bin/gcc -c -o SPOOLES/A2/src/A2_util.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         SPOOLES/A2/src/A2_util.c
+/usr/bin/gcc -c -o SPOOLES/BKL/src/BKL_basics.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         SPOOLES/BKL/src/BKL_basics.c
+/usr/bin/gcc -c -o SPOOLES/BKL/src/BKL_evalfcn.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         SPOOLES/BKL/src/BKL_evalfcn.c
+/usr/bin/gcc -c -o SPOOLES/BKL/src/BKL_exhSearch.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         SPOOLES/BKL/src/BKL_exhSearch.c
+/usr/bin/gcc -c -o SPOOLES/BKL/src/BKL_fidmat.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         SPOOLES/BKL/src/BKL_fidmat.c
+/usr/bin/gcc -c -o SPOOLES/BKL/src/BKL_init.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         SPOOLES/BKL/src/BKL_init.c
+/usr/bin/gcc -c -o SPOOLES/BKL/src/BKL_util.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         SPOOLES/BKL/src/BKL_util.c
+/usr/bin/gcc -c -o SPOOLES/BPG/src/BPG_IO.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         SPOOLES/BPG/src/BPG_IO.c
+/usr/bin/gcc -c -o SPOOLES/BPG/src/BPG_basics.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         SPOOLES/BPG/src/BPG_basics.c
+/usr/bin/gcc -c -o SPOOLES/BPG/src/BPG_init.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         SPOOLES/BPG/src/BPG_init.c
+/usr/bin/gcc -c -o SPOOLES/BPG/src/BPG_makeGraphs.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         SPOOLES/BPG/src/BPG_makeGraphs.c
+/usr/bin/gcc -c -o SPOOLES/BPG/src/BPG_pseudo.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         SPOOLES/BPG/src/BPG_pseudo.c
+/usr/bin/gcc -c -o SPOOLES/Chv/src/Chv_IO.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         SPOOLES/Chv/src/Chv_IO.c
+/usr/bin/gcc -c -o SPOOLES/Chv/src/Chv_assemble.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         SPOOLES/Chv/src/Chv_assemble.c
+/usr/bin/gcc -c -o SPOOLES/Chv/src/Chv_basics.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         SPOOLES/Chv/src/Chv_basics.c
+/usr/bin/gcc -c -o SPOOLES/Chv/src/Chv_copy.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         SPOOLES/Chv/src/Chv_copy.c
+/usr/bin/gcc -c -o SPOOLES/Chv/src/Chv_factor.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         SPOOLES/Chv/src/Chv_factor.c
+/usr/bin/gcc -c -o SPOOLES/Chv/src/Chv_findPivot.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         SPOOLES/Chv/src/Chv_findPivot.c
+/usr/bin/gcc -c -o SPOOLES/Chv/src/Chv_init.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         SPOOLES/Chv/src/Chv_init.c
+/usr/bin/gcc -c -o SPOOLES/Chv/src/Chv_instance.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         SPOOLES/Chv/src/Chv_instance.c
+/usr/bin/gcc -c -o SPOOLES/Chv/src/Chv_search.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         SPOOLES/Chv/src/Chv_search.c
+/usr/bin/gcc -c -o SPOOLES/Chv/src/Chv_swap.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         SPOOLES/Chv/src/Chv_swap.c
+/usr/bin/gcc -c -o SPOOLES/Chv/src/Chv_update.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         SPOOLES/Chv/src/Chv_update.c
+/usr/bin/gcc -c -o SPOOLES/Chv/src/Chv_util.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         SPOOLES/Chv/src/Chv_util.c
+/usr/bin/gcc -c -o SPOOLES/ChvList/src/ChvList_basics.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         SPOOLES/ChvList/src/ChvList_basics.c
+/usr/bin/gcc -c -o SPOOLES/ChvList/src/ChvList_init.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         SPOOLES/ChvList/src/ChvList_init.c
+/usr/bin/gcc -c -o SPOOLES/ChvList/src/ChvList_util.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         SPOOLES/ChvList/src/ChvList_util.c
+/usr/bin/gcc -c -o SPOOLES/ChvManager/src/ChvManager_basics.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         SPOOLES/ChvManager/src/ChvManager_basics.c
+/usr/bin/gcc -c -o SPOOLES/ChvManager/src/ChvManager_init.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         SPOOLES/ChvManager/src/ChvManager_init.c
+/usr/bin/gcc -c -o SPOOLES/ChvManager/src/ChvManager_util.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         SPOOLES/ChvManager/src/ChvManager_util.c
+/usr/bin/gcc -c -o SPOOLES/DSTree/src/DSTree_basics.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         SPOOLES/DSTree/src/DSTree_basics.c
+/usr/bin/gcc -c -o SPOOLES/DSTree/src/DSTree_init.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         SPOOLES/DSTree/src/DSTree_init.c
+/usr/bin/gcc -c -o SPOOLES/DSTree/src/DSTree_instance.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         SPOOLES/DSTree/src/DSTree_instance.c
+/usr/bin/gcc -c -o SPOOLES/DSTree/src/DSTree_stages.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         SPOOLES/DSTree/src/DSTree_stages.c
+/usr/bin/gcc -c -o SPOOLES/DSTree/src/DSTree_util.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         SPOOLES/DSTree/src/DSTree_util.c
+/usr/bin/gcc -c -o SPOOLES/DV/src/DV_IO.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         SPOOLES/DV/src/DV_IO.c
+/usr/bin/gcc -c -o SPOOLES/DV/src/DV_basics.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         SPOOLES/DV/src/DV_basics.c
+/usr/bin/gcc -c -o SPOOLES/DV/src/DV_init.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         SPOOLES/DV/src/DV_init.c
+/usr/bin/gcc -c -o SPOOLES/DV/src/DV_instance.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         SPOOLES/DV/src/DV_instance.c
+/usr/bin/gcc -c -o SPOOLES/DV/src/DV_util.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         SPOOLES/DV/src/DV_util.c
+/usr/bin/gcc -c -o SPOOLES/DenseMtx/src/DenseMtx_IO.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         SPOOLES/DenseMtx/src/DenseMtx_IO.c
+/usr/bin/gcc -c -o SPOOLES/DenseMtx/src/DenseMtx_basics.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         SPOOLES/DenseMtx/src/DenseMtx_basics.c
+/usr/bin/gcc -c -o SPOOLES/DenseMtx/src/DenseMtx_init.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         SPOOLES/DenseMtx/src/DenseMtx_init.c
+/usr/bin/gcc -c -o SPOOLES/DenseMtx/src/DenseMtx_instance.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         SPOOLES/DenseMtx/src/DenseMtx_instance.c
+/usr/bin/gcc -c -o SPOOLES/DenseMtx/src/DenseMtx_permute.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         SPOOLES/DenseMtx/src/DenseMtx_permute.c
+/usr/bin/gcc -c -o SPOOLES/DenseMtx/src/DenseMtx_util.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         SPOOLES/DenseMtx/src/DenseMtx_util.c
+/usr/bin/gcc -c -o SPOOLES/Drand/src/Drand_basics.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         SPOOLES/Drand/src/Drand_basics.c
+/usr/bin/gcc -c -o SPOOLES/Drand/src/Drand_init.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         SPOOLES/Drand/src/Drand_init.c
+/usr/bin/gcc -c -o SPOOLES/Drand/src/Drand_util.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         SPOOLES/Drand/src/Drand_util.c
+/usr/bin/gcc -c -o SPOOLES/ETree/src/ETree_IO.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         SPOOLES/ETree/src/ETree_IO.c
+/usr/bin/gcc -c -o SPOOLES/ETree/src/ETree_basics.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         SPOOLES/ETree/src/ETree_basics.c
+/usr/bin/gcc -c -o SPOOLES/ETree/src/ETree_compress.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         SPOOLES/ETree/src/ETree_compress.c
+/usr/bin/gcc -c -o SPOOLES/ETree/src/ETree_init.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         SPOOLES/ETree/src/ETree_init.c
+/usr/bin/gcc -c -o SPOOLES/ETree/src/ETree_instance.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         SPOOLES/ETree/src/ETree_instance.c
+/usr/bin/gcc -c -o SPOOLES/ETree/src/ETree_permute.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         SPOOLES/ETree/src/ETree_permute.c
+/usr/bin/gcc -c -o SPOOLES/ETree/src/ETree_transform.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         SPOOLES/ETree/src/ETree_transform.c
+/usr/bin/gcc -c -o SPOOLES/ETree/src/ETree_util.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         SPOOLES/ETree/src/ETree_util.c
+/usr/bin/gcc -c -o SPOOLES/FrontMtx/src/FrontMtx_IO.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         SPOOLES/FrontMtx/src/FrontMtx_IO.c
+/usr/bin/gcc -c -o SPOOLES/FrontMtx/src/FrontMtx_basics.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         SPOOLES/FrontMtx/src/FrontMtx_basics.c
+/usr/bin/gcc -c -o SPOOLES/FrontMtx/src/FrontMtx_factor.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         SPOOLES/FrontMtx/src/FrontMtx_factor.c
+/usr/bin/gcc -c -o SPOOLES/FrontMtx/src/FrontMtx_factorUtil.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         SPOOLES/FrontMtx/src/FrontMtx_factorUtil.c
+/usr/bin/gcc -c -o SPOOLES/FrontMtx/src/FrontMtx_init.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         SPOOLES/FrontMtx/src/FrontMtx_init.c
+/usr/bin/gcc -c -o SPOOLES/FrontMtx/src/FrontMtx_instance.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         SPOOLES/FrontMtx/src/FrontMtx_instance.c
+/usr/bin/gcc -c -o SPOOLES/FrontMtx/src/FrontMtx_loadEntries.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         SPOOLES/FrontMtx/src/FrontMtx_loadEntries.c
+/usr/bin/gcc -c -o SPOOLES/FrontMtx/src/FrontMtx_permute.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         SPOOLES/FrontMtx/src/FrontMtx_permute.c
+/usr/bin/gcc -c -o SPOOLES/FrontMtx/src/FrontMtx_postProcess.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         SPOOLES/FrontMtx/src/FrontMtx_postProcess.c
+/usr/bin/gcc -c -o SPOOLES/FrontMtx/src/FrontMtx_postponed.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         SPOOLES/FrontMtx/src/FrontMtx_postponed.c
+/usr/bin/gcc -c -o SPOOLES/FrontMtx/src/FrontMtx_solve.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         SPOOLES/FrontMtx/src/FrontMtx_solve.c
+/usr/bin/gcc -c -o SPOOLES/FrontMtx/src/FrontMtx_solveUtil.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         SPOOLES/FrontMtx/src/FrontMtx_solveUtil.c
+/usr/bin/gcc -c -o SPOOLES/FrontMtx/src/FrontMtx_split.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         SPOOLES/FrontMtx/src/FrontMtx_split.c
+/usr/bin/gcc -c -o SPOOLES/FrontMtx/src/FrontMtx_storeFront.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         SPOOLES/FrontMtx/src/FrontMtx_storeFront.c
+/usr/bin/gcc -c -o SPOOLES/FrontMtx/src/FrontMtx_update.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         SPOOLES/FrontMtx/src/FrontMtx_update.c
+/usr/bin/gcc -c -o SPOOLES/FrontMtx/src/FrontMtx_util.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         SPOOLES/FrontMtx/src/FrontMtx_util.c
+/usr/bin/gcc -c -o SPOOLES/GPart/src/GPart_DDsepInfo.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         SPOOLES/GPart/src/GPart_DDsepInfo.c
+/usr/bin/gcc -c -o SPOOLES/GPart/src/GPart_DDviaFishnet.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         SPOOLES/GPart/src/GPart_DDviaFishnet.c
+/usr/bin/gcc -c -o SPOOLES/GPart/src/GPart_DDviaProjection.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         SPOOLES/GPart/src/GPart_DDviaProjection.c
+/usr/bin/gcc -c -o SPOOLES/GPart/src/GPart_RBviaDDsep.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         SPOOLES/GPart/src/GPart_RBviaDDsep.c
+/usr/bin/gcc -c -o SPOOLES/GPart/src/GPart_TwoSetViaBKL.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         SPOOLES/GPart/src/GPart_TwoSetViaBKL.c
+/usr/bin/gcc -c -o SPOOLES/GPart/src/GPart_basics.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         SPOOLES/GPart/src/GPart_basics.c
+/usr/bin/gcc -c -o SPOOLES/GPart/src/GPart_domSegMap.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         SPOOLES/GPart/src/GPart_domSegMap.c
+/usr/bin/gcc -c -o SPOOLES/GPart/src/GPart_identifyWideSep.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         SPOOLES/GPart/src/GPart_identifyWideSep.c
+/usr/bin/gcc -c -o SPOOLES/GPart/src/GPart_init.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         SPOOLES/GPart/src/GPart_init.c
+/usr/bin/gcc -c -o SPOOLES/GPart/src/GPart_makeYCmap.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         SPOOLES/GPart/src/GPart_makeYCmap.c
+/usr/bin/gcc -c -o SPOOLES/GPart/src/GPart_smoothBisector.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         SPOOLES/GPart/src/GPart_smoothBisector.c
+/usr/bin/gcc -c -o SPOOLES/GPart/src/GPart_smoothBy2layers.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         SPOOLES/GPart/src/GPart_smoothBy2layers.c
+/usr/bin/gcc -c -o SPOOLES/GPart/src/GPart_smoothYSep.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         SPOOLES/GPart/src/GPart_smoothYSep.c
+/usr/bin/gcc -c -o SPOOLES/GPart/src/GPart_split.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         SPOOLES/GPart/src/GPart_split.c
+/usr/bin/gcc -c -o SPOOLES/GPart/src/GPart_util.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         SPOOLES/GPart/src/GPart_util.c
+/usr/bin/gcc -c -o SPOOLES/Graph/src/Graph_IO.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         SPOOLES/Graph/src/Graph_IO.c
+/usr/bin/gcc -c -o SPOOLES/Graph/src/Graph_basics.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         SPOOLES/Graph/src/Graph_basics.c
+/usr/bin/gcc -c -o SPOOLES/Graph/src/Graph_compress.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         SPOOLES/Graph/src/Graph_compress.c
+/usr/bin/gcc -c -o SPOOLES/Graph/src/Graph_equivMap.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         SPOOLES/Graph/src/Graph_equivMap.c
+/usr/bin/gcc -c -o SPOOLES/Graph/src/Graph_init.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         SPOOLES/Graph/src/Graph_init.c
+/usr/bin/gcc -c -o SPOOLES/Graph/src/Graph_util.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         SPOOLES/Graph/src/Graph_util.c
+/usr/bin/gcc -c -o SPOOLES/I2Ohash/src/I2Ohash_basics.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         SPOOLES/I2Ohash/src/I2Ohash_basics.c
+/usr/bin/gcc -c -o SPOOLES/I2Ohash/src/I2Ohash_init.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         SPOOLES/I2Ohash/src/I2Ohash_init.c
+/usr/bin/gcc -c -o SPOOLES/I2Ohash/src/I2Ohash_util.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         SPOOLES/I2Ohash/src/I2Ohash_util.c
+/usr/bin/gcc -c -o SPOOLES/IIheap/src/IIheap_basics.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         SPOOLES/IIheap/src/IIheap_basics.c
+/usr/bin/gcc -c -o SPOOLES/IV/src/IV_IO.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         SPOOLES/IV/src/IV_IO.c
+/usr/bin/gcc -c -o SPOOLES/IV/src/IV_basics.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         SPOOLES/IV/src/IV_basics.c
+/usr/bin/gcc -c -o SPOOLES/IV/src/IV_init.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         SPOOLES/IV/src/IV_init.c
+/usr/bin/gcc -c -o SPOOLES/IV/src/IV_instance.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         SPOOLES/IV/src/IV_instance.c
+/usr/bin/gcc -c -o SPOOLES/IV/src/IV_util.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         SPOOLES/IV/src/IV_util.c
+/usr/bin/gcc -c -o SPOOLES/IVL/src/IVL_IO.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         SPOOLES/IVL/src/IVL_IO.c
+/usr/bin/gcc -c -o SPOOLES/IVL/src/IVL_basics.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         SPOOLES/IVL/src/IVL_basics.c
+/usr/bin/gcc -c -o SPOOLES/IVL/src/IVL_init.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         SPOOLES/IVL/src/IVL_init.c
+/usr/bin/gcc -c -o SPOOLES/IVL/src/IVL_instance.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         SPOOLES/IVL/src/IVL_instance.c
+/usr/bin/gcc -c -o SPOOLES/IVL/src/IVL_listmanip.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         SPOOLES/IVL/src/IVL_listmanip.c
+/usr/bin/gcc -c -o SPOOLES/IVL/src/IVL_util.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         SPOOLES/IVL/src/IVL_util.c
+/usr/bin/gcc -c -o SPOOLES/Ideq/src/Ideq_basics.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         SPOOLES/Ideq/src/Ideq_basics.c
+/usr/bin/gcc -c -o SPOOLES/Ideq/src/Ideq_resize.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         SPOOLES/Ideq/src/Ideq_resize.c
+/usr/bin/gcc -c -o SPOOLES/Ideq/src/Ideq_util.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         SPOOLES/Ideq/src/Ideq_util.c
+/usr/bin/gcc -c -o SPOOLES/InpMtx/src/InpMtx_IO.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         SPOOLES/InpMtx/src/InpMtx_IO.c
+/usr/bin/gcc -c -o SPOOLES/InpMtx/src/InpMtx_basics.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         SPOOLES/InpMtx/src/InpMtx_basics.c
+/usr/bin/gcc -c -o SPOOLES/InpMtx/src/InpMtx_fullAdj.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         SPOOLES/InpMtx/src/InpMtx_fullAdj.c
+/usr/bin/gcc -c -o SPOOLES/InpMtx/src/InpMtx_init.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         SPOOLES/InpMtx/src/InpMtx_init.c
+/usr/bin/gcc -c -o SPOOLES/InpMtx/src/InpMtx_input.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         SPOOLES/InpMtx/src/InpMtx_input.c
+/usr/bin/gcc -c -o SPOOLES/InpMtx/src/InpMtx_instance.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         SPOOLES/InpMtx/src/InpMtx_instance.c
+/usr/bin/gcc -c -o SPOOLES/InpMtx/src/InpMtx_permute.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         SPOOLES/InpMtx/src/InpMtx_permute.c
+/usr/bin/gcc -c -o SPOOLES/InpMtx/src/InpMtx_util.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         SPOOLES/InpMtx/src/InpMtx_util.c
+/usr/bin/gcc -c -o SPOOLES/Lock/src/Lock_basics.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         SPOOLES/Lock/src/Lock_basics.c
+/usr/bin/gcc -c -o SPOOLES/Lock/src/Lock_init.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         SPOOLES/Lock/src/Lock_init.c
+/usr/bin/gcc -c -o SPOOLES/Lock/src/Lock_util.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         SPOOLES/Lock/src/Lock_util.c
+/usr/bin/gcc -c -o SPOOLES/MSMD/src/MSMD_MSMDinfo.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         SPOOLES/MSMD/src/MSMD_MSMDinfo.c
+/usr/bin/gcc -c -o SPOOLES/MSMD/src/MSMD_MSMDvtx.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         SPOOLES/MSMD/src/MSMD_MSMDvtx.c
+/usr/bin/gcc -c -o SPOOLES/MSMD/src/MSMD_basics.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         SPOOLES/MSMD/src/MSMD_basics.c
+/usr/bin/gcc -c -o SPOOLES/MSMD/src/MSMD_cleanReachSet.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         SPOOLES/MSMD/src/MSMD_cleanReachSet.c
+/usr/bin/gcc -c -o SPOOLES/MSMD/src/MSMD_eliminate.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         SPOOLES/MSMD/src/MSMD_eliminate.c
+/usr/bin/gcc -c -o SPOOLES/MSMD/src/MSMD_findInodes.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         SPOOLES/MSMD/src/MSMD_findInodes.c
+/usr/bin/gcc -c -o SPOOLES/MSMD/src/MSMD_frontETree.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         SPOOLES/MSMD/src/MSMD_frontETree.c
+/usr/bin/gcc -c -o SPOOLES/MSMD/src/MSMD_init.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         SPOOLES/MSMD/src/MSMD_init.c
+/usr/bin/gcc -c -o SPOOLES/MSMD/src/MSMD_order.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         SPOOLES/MSMD/src/MSMD_order.c
+/usr/bin/gcc -c -o SPOOLES/MSMD/src/MSMD_update.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         SPOOLES/MSMD/src/MSMD_update.c
+/usr/bin/gcc -c -o SPOOLES/Network/src/Network_IO.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         SPOOLES/Network/src/Network_IO.c
+/usr/bin/gcc -c -o SPOOLES/Network/src/Network_addArc.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         SPOOLES/Network/src/Network_addArc.c
+/usr/bin/gcc -c -o SPOOLES/Network/src/Network_augmentPath.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         SPOOLES/Network/src/Network_augmentPath.c
+/usr/bin/gcc -c -o SPOOLES/Network/src/Network_basics.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         SPOOLES/Network/src/Network_basics.c
+/usr/bin/gcc -c -o SPOOLES/Network/src/Network_findAugmentingPath.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         SPOOLES/Network/src/Network_findAugmentingPath.c
+/usr/bin/gcc -c -o SPOOLES/Network/src/Network_findMaxFlow.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         SPOOLES/Network/src/Network_findMaxFlow.c
+/usr/bin/gcc -c -o SPOOLES/Network/src/Network_findMincut.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         SPOOLES/Network/src/Network_findMincut.c
+/usr/bin/gcc -c -o SPOOLES/Network/src/Network_init.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         SPOOLES/Network/src/Network_init.c
+/usr/bin/gcc -c -o SPOOLES/Pencil/src/Pencil_IO.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         SPOOLES/Pencil/src/Pencil_IO.c
+/usr/bin/gcc -c -o SPOOLES/Pencil/src/Pencil_basics.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         SPOOLES/Pencil/src/Pencil_basics.c
+/usr/bin/gcc -c -o SPOOLES/Pencil/src/Pencil_init.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         SPOOLES/Pencil/src/Pencil_init.c
+/usr/bin/gcc -c -o SPOOLES/SubMtx/src/SubMtx_IO.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         SPOOLES/SubMtx/src/SubMtx_IO.c
+/usr/bin/gcc -c -o SPOOLES/SubMtx/src/SubMtx_basics.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         SPOOLES/SubMtx/src/SubMtx_basics.c
+/usr/bin/gcc -c -o SPOOLES/SubMtx/src/SubMtx_init.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         SPOOLES/SubMtx/src/SubMtx_init.c
+/usr/bin/gcc -c -o SPOOLES/SubMtx/src/SubMtx_instance.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         SPOOLES/SubMtx/src/SubMtx_instance.c
+/usr/bin/gcc -c -o SPOOLES/SubMtx/src/SubMtx_scalevec.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         SPOOLES/SubMtx/src/SubMtx_scalevec.c
+/usr/bin/gcc -c -o SPOOLES/SubMtx/src/SubMtx_solve.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         SPOOLES/SubMtx/src/SubMtx_solve.c
+/usr/bin/gcc -c -o SPOOLES/SubMtx/src/SubMtx_solveH.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         SPOOLES/SubMtx/src/SubMtx_solveH.c
+/usr/bin/gcc -c -o SPOOLES/SubMtx/src/SubMtx_solveT.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         SPOOLES/SubMtx/src/SubMtx_solveT.c
+/usr/bin/gcc -c -o SPOOLES/SubMtx/src/SubMtx_solveupd.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         SPOOLES/SubMtx/src/SubMtx_solveupd.c
+/usr/bin/gcc -c -o SPOOLES/SubMtx/src/SubMtx_solveupdH.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         SPOOLES/SubMtx/src/SubMtx_solveupdH.c
+/usr/bin/gcc -c -o SPOOLES/SubMtx/src/SubMtx_solveupdT.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         SPOOLES/SubMtx/src/SubMtx_solveupdT.c
+/usr/bin/gcc -c -o SPOOLES/SubMtx/src/SubMtx_sort.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         SPOOLES/SubMtx/src/SubMtx_sort.c
+/usr/bin/gcc -c -o SPOOLES/SubMtx/src/SubMtx_util.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         SPOOLES/SubMtx/src/SubMtx_util.c
+/usr/bin/gcc -c -o SPOOLES/SubMtxList/src/SubMtxList_util.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         SPOOLES/SubMtxList/src/SubMtxList_util.c
+/usr/bin/gcc -c -o SPOOLES/SubMtxManager/src/SubMtxManager_basics.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         SPOOLES/SubMtxManager/src/SubMtxManager_basics.c
+/usr/bin/gcc -c -o SPOOLES/SubMtxManager/src/SubMtxManager_init.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         SPOOLES/SubMtxManager/src/SubMtxManager_init.c
+/usr/bin/gcc -c -o SPOOLES/SubMtxManager/src/SubMtxManager_util.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         SPOOLES/SubMtxManager/src/SubMtxManager_util.c
+/usr/bin/gcc -c -o SPOOLES/SymbFac/src/SymbFac_symbfac.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         SPOOLES/SymbFac/src/SymbFac_symbfac.c
+/usr/bin/gcc -c -o SPOOLES/Tree/src/Tree_IO.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         SPOOLES/Tree/src/Tree_IO.c
+/usr/bin/gcc -c -o SPOOLES/Tree/src/Tree_basics.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         SPOOLES/Tree/src/Tree_basics.c
+/usr/bin/gcc -c -o SPOOLES/Tree/src/Tree_compress.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         SPOOLES/Tree/src/Tree_compress.c
+/usr/bin/gcc -c -o SPOOLES/Tree/src/Tree_init.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         SPOOLES/Tree/src/Tree_init.c
+/usr/bin/gcc -c -o SPOOLES/Tree/src/Tree_metrics.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         SPOOLES/Tree/src/Tree_metrics.c
+/usr/bin/gcc -c -o SPOOLES/Tree/src/Tree_perms.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         SPOOLES/Tree/src/Tree_perms.c
+/usr/bin/gcc -c -o SPOOLES/Tree/src/Tree_util.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         SPOOLES/Tree/src/Tree_util.c
+/usr/bin/gcc -c -o SPOOLES/Utilities/src/Utilities_CV.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         SPOOLES/Utilities/src/Utilities_CV.c
+/usr/bin/gcc -c -o SPOOLES/Utilities/src/Utilities_DV.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         SPOOLES/Utilities/src/Utilities_DV.c
+/usr/bin/gcc -c -o SPOOLES/Utilities/src/Utilities_I2OP.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         SPOOLES/Utilities/src/Utilities_I2OP.c
+/usr/bin/gcc -c -o SPOOLES/Utilities/src/Utilities_IP.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         SPOOLES/Utilities/src/Utilities_IP.c
+/usr/bin/gcc -c -o SPOOLES/Utilities/src/Utilities_IV.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         SPOOLES/Utilities/src/Utilities_IV.c
+/usr/bin/gcc -c -o SPOOLES/Utilities/src/Utilities_PIV.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         SPOOLES/Utilities/src/Utilities_PIV.c
+/usr/bin/gcc -c -o SPOOLES/Utilities/src/Utilities_ZV.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         SPOOLES/Utilities/src/Utilities_ZV.c
+/usr/bin/gcc -c -o SPOOLES/Utilities/src/Utilities_iohb.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         SPOOLES/Utilities/src/Utilities_iohb.c
+/usr/bin/gcc -c -o SPOOLES/Utilities/src/Utilities_newsort.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         SPOOLES/Utilities/src/Utilities_newsort.c
+/usr/bin/gcc -c -o SPOOLES/Utilities/src/Utilities_sortAndCompress.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         SPOOLES/Utilities/src/Utilities_sortAndCompress.c
+/usr/bin/gcc -c -o SPOOLES/ZV/src/ZV_basics.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         SPOOLES/ZV/src/ZV_basics.c
+/usr/bin/gcc -c -o SPOOLES/ZV/src/ZV_init.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         SPOOLES/ZV/src/ZV_init.c
+/usr/bin/gcc -c -o SPOOLES/ZV/src/ZV_instance.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         SPOOLES/ZV/src/ZV_instance.c
+/usr/bin/gcc -c -o SPOOLES/misc/src/misc_orderViaBestOfNDandMS.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         SPOOLES/misc/src/misc_orderViaBestOfNDandMS.c
+/usr/bin/gfortran   -O2  -DSPEC_CPU_LP64        CalculiX.o add_pr.o add_sm_ei.o add_sm_st.o allocation.o amplitudes.o anisotropic.o beamsections.o bounadd.o boundaries.o buckles.o calinput.o cfluxes.o changedepterm.o cloads.o conductivities.o controlss.o couptempdisps.o creeps.o cychards.o cycsymmods.o dasol.o datest.o datri.o defplasticities.o defplas.o densities.o depvars.o deuldlag.o dfluxes.o dgesv.o diamtr.o dloads.o dot.o dredu.o dsort.o dynamics.o dynsolv.o el.o elastics.o elements.o elprints.o envtemp.o equations.o expansions.o extrapolate.o e_c3d.o e_c3d_th.o e_c3d_rhs.o fcrit.o films.o finpro.o forcadd.o frd.fppized.o frdclose.o frequencies.o fsub.o fsuper.o gen3delem.o genran.o getnewline.o graph.o headings.o heattransfers.o hyperel.o hyperelastics.o hyperfoams.o ident.o ident2.o include.o incplas.o initialconditions.o inputerror.o isorti.o isortid.o isortidc.o isortii.o isortiid.o label.o linel.o lintemp.o lintemp_th.o loadadd.o loadaddt.o mafillpr.o mafillsm.o mafillsmcs.o massflowrates.o matdata_co.o matdata_he.o matdata_tg.o materialdata.o materials.o modaldampings.o modaldynamics.o mpcs.o nident.o nident2.o near2d.o noanalysis.o nodalthicknesses.o nodeprints.o nodes.o noelfiles.o noelsets.o nonlinmpc.o normals.o norshell.o number.o onf.o op.o openfile.o orientations.o orthonl.o orthotropic.o out.o parser.o physicalconstants.o planempc.o plastics.o plcopy.o plinterpol.o plmix.o polynom.o profil.o radflowload.o radiates.o ranewr.o rearrange.o rectcyl.o renumber.o restartread.o restarts.o restartshort.o restartwrite.o results.o rhs.o rigidbodies.o rigidmpc.o rootls.o rubber.o saxpb.o selcycsymmods.o shape3tri.o shape4q.o shape4tet.o shape6tri.o shape6w.o shape8h.o shape8q.o shape10tet.o shape15w.o shape20h.o shellsections.o skip.o solidsections.o spcmatch.o specificheats.o statics.o steps.o stiff2mat.o stop.o str2mat.o straightmpc.o surfaces.o temperatures.o tempload.o ties.o transformatrix.o transforms.o ucreep.o uhardening.o umat.o umat_aniso_creep.o umat_aniso_plas.o umat_elastic_fiber.o umat_ideal_gas.o umat_lin_iso_el.o umat_single_crystal.o umat_tension_only.o umat_user.o umpc_mean_rot.o umpc_user.o usermaterials.o usermpc.o viscos.o wcoef.o writebv.o writeev.o writeevcs.o writempc.o writesummary.o cascade.o frdcyc.o insert.o mastruct.o mastructcs.o nonlingeo.o pcgsolver.o preiter.o prespooles.o profile.o remastruct.o spooles.o strcmp1.o strcpy1.o u_calloc.o SPOOLES/A2/src/A2_IO.o SPOOLES/A2/src/A2_basics.o SPOOLES/A2/src/A2_init.o SPOOLES/A2/src/A2_instance.o SPOOLES/A2/src/A2_norms.o SPOOLES/A2/src/A2_sort.o SPOOLES/A2/src/A2_util.o SPOOLES/BKL/src/BKL_basics.o SPOOLES/BKL/src/BKL_evalfcn.o SPOOLES/BKL/src/BKL_exhSearch.o SPOOLES/BKL/src/BKL_fidmat.o SPOOLES/BKL/src/BKL_init.o SPOOLES/BKL/src/BKL_util.o SPOOLES/BPG/src/BPG_IO.o SPOOLES/BPG/src/BPG_basics.o SPOOLES/BPG/src/BPG_init.o SPOOLES/BPG/src/BPG_makeGraphs.o SPOOLES/BPG/src/BPG_pseudo.o SPOOLES/Chv/src/Chv_IO.o SPOOLES/Chv/src/Chv_assemble.o SPOOLES/Chv/src/Chv_basics.o SPOOLES/Chv/src/Chv_copy.o SPOOLES/Chv/src/Chv_factor.o SPOOLES/Chv/src/Chv_findPivot.o SPOOLES/Chv/src/Chv_init.o SPOOLES/Chv/src/Chv_instance.o SPOOLES/Chv/src/Chv_search.o SPOOLES/Chv/src/Chv_swap.o SPOOLES/Chv/src/Chv_update.o SPOOLES/Chv/src/Chv_util.o SPOOLES/ChvList/src/ChvList_basics.o SPOOLES/ChvList/src/ChvList_init.o SPOOLES/ChvList/src/ChvList_util.o SPOOLES/ChvManager/src/ChvManager_basics.o SPOOLES/ChvManager/src/ChvManager_init.o SPOOLES/ChvManager/src/ChvManager_util.o SPOOLES/DSTree/src/DSTree_basics.o SPOOLES/DSTree/src/DSTree_init.o SPOOLES/DSTree/src/DSTree_instance.o SPOOLES/DSTree/src/DSTree_stages.o SPOOLES/DSTree/src/DSTree_util.o SPOOLES/DV/src/DV_IO.o SPOOLES/DV/src/DV_basics.o SPOOLES/DV/src/DV_init.o SPOOLES/DV/src/DV_instance.o SPOOLES/DV/src/DV_util.o SPOOLES/DenseMtx/src/DenseMtx_IO.o SPOOLES/DenseMtx/src/DenseMtx_basics.o SPOOLES/DenseMtx/src/DenseMtx_init.o SPOOLES/DenseMtx/src/DenseMtx_instance.o SPOOLES/DenseMtx/src/DenseMtx_permute.o SPOOLES/DenseMtx/src/DenseMtx_util.o SPOOLES/Drand/src/Drand_basics.o SPOOLES/Drand/src/Drand_init.o SPOOLES/Drand/src/Drand_util.o SPOOLES/ETree/src/ETree_IO.o SPOOLES/ETree/src/ETree_basics.o SPOOLES/ETree/src/ETree_compress.o SPOOLES/ETree/src/ETree_init.o SPOOLES/ETree/src/ETree_instance.o SPOOLES/ETree/src/ETree_permute.o SPOOLES/ETree/src/ETree_transform.o SPOOLES/ETree/src/ETree_util.o SPOOLES/FrontMtx/src/FrontMtx_IO.o SPOOLES/FrontMtx/src/FrontMtx_basics.o SPOOLES/FrontMtx/src/FrontMtx_factor.o SPOOLES/FrontMtx/src/FrontMtx_factorUtil.o SPOOLES/FrontMtx/src/FrontMtx_init.o SPOOLES/FrontMtx/src/FrontMtx_instance.o SPOOLES/FrontMtx/src/FrontMtx_loadEntries.o SPOOLES/FrontMtx/src/FrontMtx_permute.o SPOOLES/FrontMtx/src/FrontMtx_postProcess.o SPOOLES/FrontMtx/src/FrontMtx_postponed.o SPOOLES/FrontMtx/src/FrontMtx_solve.o SPOOLES/FrontMtx/src/FrontMtx_solveUtil.o SPOOLES/FrontMtx/src/FrontMtx_split.o SPOOLES/FrontMtx/src/FrontMtx_storeFront.o SPOOLES/FrontMtx/src/FrontMtx_update.o SPOOLES/FrontMtx/src/FrontMtx_util.o SPOOLES/GPart/src/GPart_DDsepInfo.o SPOOLES/GPart/src/GPart_DDviaFishnet.o SPOOLES/GPart/src/GPart_DDviaProjection.o SPOOLES/GPart/src/GPart_RBviaDDsep.o SPOOLES/GPart/src/GPart_TwoSetViaBKL.o SPOOLES/GPart/src/GPart_basics.o SPOOLES/GPart/src/GPart_domSegMap.o SPOOLES/GPart/src/GPart_identifyWideSep.o SPOOLES/GPart/src/GPart_init.o SPOOLES/GPart/src/GPart_makeYCmap.o SPOOLES/GPart/src/GPart_smoothBisector.o SPOOLES/GPart/src/GPart_smoothBy2layers.o SPOOLES/GPart/src/GPart_smoothYSep.o SPOOLES/GPart/src/GPart_split.o SPOOLES/GPart/src/GPart_util.o SPOOLES/Graph/src/Graph_IO.o SPOOLES/Graph/src/Graph_basics.o SPOOLES/Graph/src/Graph_compress.o SPOOLES/Graph/src/Graph_equivMap.o SPOOLES/Graph/src/Graph_init.o SPOOLES/Graph/src/Graph_util.o SPOOLES/I2Ohash/src/I2Ohash_basics.o SPOOLES/I2Ohash/src/I2Ohash_init.o SPOOLES/I2Ohash/src/I2Ohash_util.o SPOOLES/IIheap/src/IIheap_basics.o SPOOLES/IV/src/IV_IO.o SPOOLES/IV/src/IV_basics.o SPOOLES/IV/src/IV_init.o SPOOLES/IV/src/IV_instance.o SPOOLES/IV/src/IV_util.o SPOOLES/IVL/src/IVL_IO.o SPOOLES/IVL/src/IVL_basics.o SPOOLES/IVL/src/IVL_init.o SPOOLES/IVL/src/IVL_instance.o SPOOLES/IVL/src/IVL_listmanip.o SPOOLES/IVL/src/IVL_util.o SPOOLES/Ideq/src/Ideq_basics.o SPOOLES/Ideq/src/Ideq_resize.o SPOOLES/Ideq/src/Ideq_util.o SPOOLES/InpMtx/src/InpMtx_IO.o SPOOLES/InpMtx/src/InpMtx_basics.o SPOOLES/InpMtx/src/InpMtx_fullAdj.o SPOOLES/InpMtx/src/InpMtx_init.o SPOOLES/InpMtx/src/InpMtx_input.o SPOOLES/InpMtx/src/InpMtx_instance.o SPOOLES/InpMtx/src/InpMtx_permute.o SPOOLES/InpMtx/src/InpMtx_util.o SPOOLES/Lock/src/Lock_basics.o SPOOLES/Lock/src/Lock_init.o SPOOLES/Lock/src/Lock_util.o SPOOLES/MSMD/src/MSMD_MSMDinfo.o SPOOLES/MSMD/src/MSMD_MSMDvtx.o SPOOLES/MSMD/src/MSMD_basics.o SPOOLES/MSMD/src/MSMD_cleanReachSet.o SPOOLES/MSMD/src/MSMD_eliminate.o SPOOLES/MSMD/src/MSMD_findInodes.o SPOOLES/MSMD/src/MSMD_frontETree.o SPOOLES/MSMD/src/MSMD_init.o SPOOLES/MSMD/src/MSMD_order.o SPOOLES/MSMD/src/MSMD_update.o SPOOLES/Network/src/Network_IO.o SPOOLES/Network/src/Network_addArc.o SPOOLES/Network/src/Network_augmentPath.o SPOOLES/Network/src/Network_basics.o SPOOLES/Network/src/Network_findAugmentingPath.o SPOOLES/Network/src/Network_findMaxFlow.o SPOOLES/Network/src/Network_findMincut.o SPOOLES/Network/src/Network_init.o SPOOLES/Pencil/src/Pencil_IO.o SPOOLES/Pencil/src/Pencil_basics.o SPOOLES/Pencil/src/Pencil_init.o SPOOLES/SubMtx/src/SubMtx_IO.o SPOOLES/SubMtx/src/SubMtx_basics.o SPOOLES/SubMtx/src/SubMtx_init.o SPOOLES/SubMtx/src/SubMtx_instance.o SPOOLES/SubMtx/src/SubMtx_scalevec.o SPOOLES/SubMtx/src/SubMtx_solve.o SPOOLES/SubMtx/src/SubMtx_solveH.o SPOOLES/SubMtx/src/SubMtx_solveT.o SPOOLES/SubMtx/src/SubMtx_solveupd.o SPOOLES/SubMtx/src/SubMtx_solveupdH.o SPOOLES/SubMtx/src/SubMtx_solveupdT.o SPOOLES/SubMtx/src/SubMtx_sort.o SPOOLES/SubMtx/src/SubMtx_util.o SPOOLES/SubMtxList/src/SubMtxList_util.o SPOOLES/SubMtxManager/src/SubMtxManager_basics.o SPOOLES/SubMtxManager/src/SubMtxManager_init.o SPOOLES/SubMtxManager/src/SubMtxManager_util.o SPOOLES/SymbFac/src/SymbFac_symbfac.o SPOOLES/Tree/src/Tree_IO.o SPOOLES/Tree/src/Tree_basics.o SPOOLES/Tree/src/Tree_compress.o SPOOLES/Tree/src/Tree_init.o SPOOLES/Tree/src/Tree_metrics.o SPOOLES/Tree/src/Tree_perms.o SPOOLES/Tree/src/Tree_util.o SPOOLES/Utilities/src/Utilities_CV.o SPOOLES/Utilities/src/Utilities_DV.o SPOOLES/Utilities/src/Utilities_I2OP.o SPOOLES/Utilities/src/Utilities_IP.o SPOOLES/Utilities/src/Utilities_IV.o SPOOLES/Utilities/src/Utilities_PIV.o SPOOLES/Utilities/src/Utilities_ZV.o SPOOLES/Utilities/src/Utilities_iohb.o SPOOLES/Utilities/src/Utilities_newsort.o SPOOLES/Utilities/src/Utilities_sortAndCompress.o SPOOLES/ZV/src/ZV_basics.o SPOOLES/ZV/src/ZV_init.o SPOOLES/ZV/src/ZV_instance.o SPOOLES/misc/src/misc_orderViaBestOfNDandMS.o             -lm        -o calculix

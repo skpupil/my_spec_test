@@ -1,0 +1,21 @@
+running commands in speccmds.cmd 1 times
+runs started at 1709393099, 963470000, Sat Mar  2 15:24:59 2024
+run 1 started at 1709393099, 963481000, Sat Mar  2 15:24:59 2024
+child started: 0, 1709393099, 963487000, pid=22364, '../run_base_test_amd64-m64-gcc41-nn.0000/gobmk_base.amd64-m64-gcc41-nn --quiet --mode gtp'
+child finished: 0, 1709393100, 115392000, sec=0, nsec=151905000, pid=22364, rc=0
+child started: 0, 1709393100, 115407000, pid=22366, '../run_base_test_amd64-m64-gcc41-nn.0000/gobmk_base.amd64-m64-gcc41-nn --quiet --mode gtp'
+child finished: 0, 1709393100, 820301000, sec=0, nsec=704894000, pid=22366, rc=0
+child started: 0, 1709393100, 820316000, pid=22368, '../run_base_test_amd64-m64-gcc41-nn.0000/gobmk_base.amd64-m64-gcc41-nn --quiet --mode gtp'
+child finished: 0, 1709393100, 859622000, sec=0, nsec=39306000, pid=22368, rc=0
+child started: 0, 1709393100, 859636000, pid=22370, '../run_base_test_amd64-m64-gcc41-nn.0000/gobmk_base.amd64-m64-gcc41-nn --quiet --mode gtp'
+child finished: 0, 1709393104, 228536000, sec=3, nsec=368900000, pid=22370, rc=0
+child started: 0, 1709393104, 228551000, pid=22372, '../run_base_test_amd64-m64-gcc41-nn.0000/gobmk_base.amd64-m64-gcc41-nn --quiet --mode gtp'
+child finished: 0, 1709393104, 265491000, sec=0, nsec=36940000, pid=22372, rc=0
+child started: 0, 1709393104, 265506000, pid=22374, '../run_base_test_amd64-m64-gcc41-nn.0000/gobmk_base.amd64-m64-gcc41-nn --quiet --mode gtp'
+child finished: 0, 1709393104, 464533000, sec=0, nsec=199027000, pid=22374, rc=0
+child started: 0, 1709393104, 464551000, pid=22376, '../run_base_test_amd64-m64-gcc41-nn.0000/gobmk_base.amd64-m64-gcc41-nn --quiet --mode gtp'
+child finished: 0, 1709393114, 637587000, sec=10, nsec=173036000, pid=22376, rc=0
+run 1 finished at: 1709393114, 637593000, Sat Mar  2 15:25:14 2024
+run 1 elapsed time: 14, 674112000, 14.674112000
+runs finished at 1709393114, 637617000, Sat Mar  2 15:25:14 2024
+runs elapsed time: 14, 674147000, 14.674147000

@@ -1,0 +1,2 @@
+-C /root/asterinas/asterinas/regression/apps/speccpu2006-v1.0.1/benchspec/CPU2006/473.astar/run/run_base_test_amd64-m64-gcc41-nn.0000
+-o lake.out -e lake.err ../run_base_test_amd64-m64-gcc41-nn.0000/astar_base.amd64-m64-gcc41-nn lake.cfg

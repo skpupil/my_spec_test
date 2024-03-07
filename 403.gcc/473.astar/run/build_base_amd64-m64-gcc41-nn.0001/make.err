@@ -1,0 +1,145 @@
+RegMng_.cpp: In member function 'bool regmngobj::loadmap(const char*)':
+RegMng_.cpp:66:7: warning: ignoring return value of 'ssize_t read(int, void*, size_t)' declared with attribute 'warn_unused_result' [-Wunused-result]
+   66 |   read(hf,&xRunion.xRstruc.xR1,sizeof(xRunion.xRstruc.xR1));
+      |   ~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+RegMng_.cpp:67:7: warning: ignoring return value of 'ssize_t read(int, void*, size_t)' declared with attribute 'warn_unused_result' [-Wunused-result]
+   67 |   read(hf,&xRunion.xRstruc.xR2,sizeof(xRunion.xRstruc.xR2));
+      |   ~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+RegMng_.cpp:68:7: warning: ignoring return value of 'ssize_t read(int, void*, size_t)' declared with attribute 'warn_unused_result' [-Wunused-result]
+   68 |   read(hf,&xRunion.xRstruc.xR3,sizeof(xRunion.xRstruc.xR3));
+      |   ~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+RegMng_.cpp:69:7: warning: ignoring return value of 'ssize_t read(int, void*, size_t)' declared with attribute 'warn_unused_result' [-Wunused-result]
+   69 |   read(hf,&xRunion.xRstruc.xR4,sizeof(xRunion.xRstruc.xR4));
+      |   ~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+RegMng_.cpp:70:7: warning: ignoring return value of 'ssize_t read(int, void*, size_t)' declared with attribute 'warn_unused_result' [-Wunused-result]
+   70 |   read(hf,&yRunion.yRstruc.yR1,sizeof(yRunion.yRstruc.yR1));
+      |   ~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+RegMng_.cpp:71:7: warning: ignoring return value of 'ssize_t read(int, void*, size_t)' declared with attribute 'warn_unused_result' [-Wunused-result]
+   71 |   read(hf,&yRunion.yRstruc.yR2,sizeof(yRunion.yRstruc.yR2));
+      |   ~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+RegMng_.cpp:72:7: warning: ignoring return value of 'ssize_t read(int, void*, size_t)' declared with attribute 'warn_unused_result' [-Wunused-result]
+   72 |   read(hf,&yRunion.yRstruc.yR3,sizeof(yRunion.yRstruc.yR3));
+      |   ~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+RegMng_.cpp:73:7: warning: ignoring return value of 'ssize_t read(int, void*, size_t)' declared with attribute 'warn_unused_result' [-Wunused-result]
+   73 |   read(hf,&yRunion.yRstruc.yR4,sizeof(yRunion.yRstruc.yR4));
+      |   ~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+RegMng_.cpp:90:7: warning: ignoring return value of 'ssize_t read(int, void*, size_t)' declared with attribute 'warn_unused_result' [-Wunused-result]
+   90 |   read(hf,landscapemapp,mapsizex*mapsizey*sizeof(landscapemapp[0]));
+      |   ~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Way2_.cpp: In member function 'bool way2obj::loadmap(const char*)':
+Way2_.cpp:284:7: warning: ignoring return value of 'ssize_t read(int, void*, size_t)' declared with attribute 'warn_unused_result' [-Wunused-result]
+  284 |   read(hf,&xRunion.xRstruc.xR1,sizeof(xRunion.xRstruc.xR1));
+      |   ~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Way2_.cpp:285:7: warning: ignoring return value of 'ssize_t read(int, void*, size_t)' declared with attribute 'warn_unused_result' [-Wunused-result]
+  285 |   read(hf,&xRunion.xRstruc.xR2,sizeof(xRunion.xRstruc.xR2));
+      |   ~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Way2_.cpp:286:7: warning: ignoring return value of 'ssize_t read(int, void*, size_t)' declared with attribute 'warn_unused_result' [-Wunused-result]
+  286 |   read(hf,&xRunion.xRstruc.xR3,sizeof(xRunion.xRstruc.xR3));
+      |   ~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Way2_.cpp:287:7: warning: ignoring return value of 'ssize_t read(int, void*, size_t)' declared with attribute 'warn_unused_result' [-Wunused-result]
+  287 |   read(hf,&xRunion.xRstruc.xR4,sizeof(xRunion.xRstruc.xR4));
+      |   ~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Way2_.cpp:288:7: warning: ignoring return value of 'ssize_t read(int, void*, size_t)' declared with attribute 'warn_unused_result' [-Wunused-result]
+  288 |   read(hf,&yRunion.yRstruc.yR1,sizeof(yRunion.yRstruc.yR1));
+      |   ~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Way2_.cpp:289:7: warning: ignoring return value of 'ssize_t read(int, void*, size_t)' declared with attribute 'warn_unused_result' [-Wunused-result]
+  289 |   read(hf,&yRunion.yRstruc.yR2,sizeof(yRunion.yRstruc.yR2));
+      |   ~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Way2_.cpp:290:7: warning: ignoring return value of 'ssize_t read(int, void*, size_t)' declared with attribute 'warn_unused_result' [-Wunused-result]
+  290 |   read(hf,&yRunion.yRstruc.yR3,sizeof(yRunion.yRstruc.yR3));
+      |   ~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Way2_.cpp:291:7: warning: ignoring return value of 'ssize_t read(int, void*, size_t)' declared with attribute 'warn_unused_result' [-Wunused-result]
+  291 |   read(hf,&yRunion.yRstruc.yR4,sizeof(yRunion.yRstruc.yR4));
+      |   ~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Way2_.cpp:311:7: warning: ignoring return value of 'ssize_t read(int, void*, size_t)' declared with attribute 'warn_unused_result' [-Wunused-result]
+  311 |   read(hf,mapp,mapsizex*mapsizey*sizeof(mapp[0]));
+      |   ~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+WayInit_.cpp: In member function 'bool wayobj::loadmap(const char*)':
+WayInit_.cpp:226:7: warning: ignoring return value of 'ssize_t read(int, void*, size_t)' declared with attribute 'warn_unused_result' [-Wunused-result]
+  226 |   read(hf,&xRunion.xRstruc.xR1,sizeof(xRunion.xRstruc.xR1));
+      |   ~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+WayInit_.cpp:227:7: warning: ignoring return value of 'ssize_t read(int, void*, size_t)' declared with attribute 'warn_unused_result' [-Wunused-result]
+  227 |   read(hf,&xRunion.xRstruc.xR2,sizeof(xRunion.xRstruc.xR2));
+      |   ~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+WayInit_.cpp:228:7: warning: ignoring return value of 'ssize_t read(int, void*, size_t)' declared with attribute 'warn_unused_result' [-Wunused-result]
+  228 |   read(hf,&xRunion.xRstruc.xR3,sizeof(xRunion.xRstruc.xR3));
+      |   ~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+WayInit_.cpp:229:7: warning: ignoring return value of 'ssize_t read(int, void*, size_t)' declared with attribute 'warn_unused_result' [-Wunused-result]
+  229 |   read(hf,&xRunion.xRstruc.xR4,sizeof(xRunion.xRstruc.xR4));
+      |   ~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+WayInit_.cpp:230:7: warning: ignoring return value of 'ssize_t read(int, void*, size_t)' declared with attribute 'warn_unused_result' [-Wunused-result]
+  230 |   read(hf,&yRunion.yRstruc.yR1,sizeof(yRunion.yRstruc.yR1));
+      |   ~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+WayInit_.cpp:231:7: warning: ignoring return value of 'ssize_t read(int, void*, size_t)' declared with attribute 'warn_unused_result' [-Wunused-result]
+  231 |   read(hf,&yRunion.yRstruc.yR2,sizeof(yRunion.yRstruc.yR2));
+      |   ~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+WayInit_.cpp:232:7: warning: ignoring return value of 'ssize_t read(int, void*, size_t)' declared with attribute 'warn_unused_result' [-Wunused-result]
+  232 |   read(hf,&yRunion.yRstruc.yR3,sizeof(yRunion.yRstruc.yR3));
+      |   ~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+WayInit_.cpp:233:7: warning: ignoring return value of 'ssize_t read(int, void*, size_t)' declared with attribute 'warn_unused_result' [-Wunused-result]
+  233 |   read(hf,&yRunion.yRstruc.yR4,sizeof(yRunion.yRstruc.yR4));
+      |   ~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+WayInit_.cpp:253:7: warning: ignoring return value of 'ssize_t read(int, void*, size_t)' declared with attribute 'warn_unused_result' [-Wunused-result]
+  253 |   read(hf,mapp,mapsizex*mapsizey*sizeof(mapp[0]));
+      |   ~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Library.cpp:80:10: warning: invalid suffix on literal; C++11 requires a space between literal and string macro [-Wliteral-suffix]
+   80 |   printf("Ways quantity : %"PRId64"\n",wayqu);
+      |          ^
+Library.cpp:81:10: warning: invalid suffix on literal; C++11 requires a space between literal and string macro [-Wliteral-suffix]
+   81 |   printf("Total way length : %"PRId64"\n",waylength);
+      |          ^
+Library.cpp:84:10: warning: invalid suffix on literal; C++11 requires a space between literal and string macro [-Wliteral-suffix]
+   84 |   printf("Reg ways quantity : %"PRId64"\n",regwayqu);
+      |          ^
+Library.cpp:85:10: warning: invalid suffix on literal; C++11 requires a space between literal and string macro [-Wliteral-suffix]
+   85 |   printf("Total reg way length : %"PRId64"\n",regwaylength);
+      |          ^
+Library.cpp:88:10: warning: invalid suffix on literal; C++11 requires a space between literal and string macro [-Wliteral-suffix]
+   88 |   printf("River ways quantity : %"PRId64"\n",riverwayqu);
+      |          ^
+Library.cpp:89:10: warning: invalid suffix on literal; C++11 requires a space between literal and string macro [-Wliteral-suffix]
+   89 |   printf("Total river way length : %"PRId64"\n",riverwaylength);
+      |          ^
+Library.cpp:91:10: warning: invalid suffix on literal; C++11 requires a space between literal and string macro [-Wliteral-suffix]
+   91 |   printf("Land ways quantity : %"PRId64"\n",landwayqu);
+      |          ^
+Library.cpp:92:10: warning: invalid suffix on literal; C++11 requires a space between literal and string macro [-Wliteral-suffix]
+   92 |   printf("Total land way length : %"PRId64"\n",landwaylength);
+      |          ^
+Library.cpp: In function 'int main(int, char**)':
+Library.cpp:149:9: warning: ignoring return value of 'int fscanf(FILE*, const char*, ...)' declared with attribute 'warn_unused_result' [-Wunused-result]
+  149 |   fscanf(f,"%s",info.mapfilename);
+      |   ~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~
+Library.cpp:150:9: warning: ignoring return value of 'int fscanf(FILE*, const char*, ...)' declared with attribute 'warn_unused_result' [-Wunused-result]
+  150 |   fscanf(f,"%d",&info.regionsize);
+      |   ~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~
+Library.cpp:151:9: warning: ignoring return value of 'int fscanf(FILE*, const char*, ...)' declared with attribute 'warn_unused_result' [-Wunused-result]
+  151 |   fscanf(f,"%d",&info.wayqu);
+      |   ~~~~~~^~~~~~~~~~~~~~~~~~~~
+Library.cpp:152:9: warning: ignoring return value of 'int fscanf(FILE*, const char*, ...)' declared with attribute 'warn_unused_result' [-Wunused-result]
+  152 |   fscanf(f,"%d",&info.riverwayqu);
+      |   ~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~
+Library.cpp:153:9: warning: ignoring return value of 'int fscanf(FILE*, const char*, ...)' declared with attribute 'warn_unused_result' [-Wunused-result]
+  153 |   fscanf(f,"%d",&info.landwayqu);
+      |   ~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~
+Library.cpp:154:9: warning: ignoring return value of 'int fscanf(FILE*, const char*, ...)' declared with attribute 'warn_unused_result' [-Wunused-result]
+  154 |   fscanf(f,"%d",&info.regwayqu);
+      |   ~~~~~~^~~~~~~~~~~~~~~~~~~~~~~
+Library.cpp:155:9: warning: ignoring return value of 'int fscanf(FILE*, const char*, ...)' declared with attribute 'warn_unused_result' [-Wunused-result]
+  155 |   fscanf(f,"%d",&info.randommaplx);
+      |   ~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~
+Library.cpp:156:9: warning: ignoring return value of 'int fscanf(FILE*, const char*, ...)' declared with attribute 'warn_unused_result' [-Wunused-result]
+  156 |   fscanf(f,"%d",&info.randommaply);
+      |   ~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~
+Library.cpp:157:9: warning: ignoring return value of 'int fscanf(FILE*, const char*, ...)' declared with attribute 'warn_unused_result' [-Wunused-result]
+  157 |   fscanf(f,"%f",&info.randommapdensity);
+      |   ~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Library.cpp:158:9: warning: ignoring return value of 'int fscanf(FILE*, const char*, ...)' declared with attribute 'warn_unused_result' [-Wunused-result]
+  158 |   fscanf(f,"%d",&info.randommapregionsize);
+      |   ~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Library.cpp:159:9: warning: ignoring return value of 'int fscanf(FILE*, const char*, ...)' declared with attribute 'warn_unused_result' [-Wunused-result]
+  159 |   fscanf(f,"%d",&info.randommapwayqu);
+      |   ~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Library.cpp:160:9: warning: ignoring return value of 'int fscanf(FILE*, const char*, ...)' declared with attribute 'warn_unused_result' [-Wunused-result]
+  160 |   fscanf(f,"%d",&info.randommapregwayqu);
+      |   ~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

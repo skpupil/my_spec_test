@@ -1,0 +1,12 @@
+/usr/bin/g++ -c -o CreateWay_.o -DSPEC_CPU -DNDEBUG -DSPEC_CPU_LITTLE_ENDIAN   -O2    -DSPEC_CPU_LP64       CreateWay_.cpp
+/usr/bin/g++ -c -o Places_.o -DSPEC_CPU -DNDEBUG -DSPEC_CPU_LITTLE_ENDIAN   -O2    -DSPEC_CPU_LP64       Places_.cpp
+/usr/bin/g++ -c -o RegBounds_.o -DSPEC_CPU -DNDEBUG -DSPEC_CPU_LITTLE_ENDIAN   -O2    -DSPEC_CPU_LP64       RegBounds_.cpp
+/usr/bin/g++ -c -o RegMng_.o -DSPEC_CPU -DNDEBUG -DSPEC_CPU_LITTLE_ENDIAN   -O2    -DSPEC_CPU_LP64       RegMng_.cpp
+/usr/bin/g++ -c -o Way2_.o -DSPEC_CPU -DNDEBUG -DSPEC_CPU_LITTLE_ENDIAN   -O2    -DSPEC_CPU_LP64       Way2_.cpp
+/usr/bin/g++ -c -o WayInit_.o -DSPEC_CPU -DNDEBUG -DSPEC_CPU_LITTLE_ENDIAN   -O2    -DSPEC_CPU_LP64       WayInit_.cpp
+/usr/bin/g++ -c -o Library.o -DSPEC_CPU -DNDEBUG -DSPEC_CPU_LITTLE_ENDIAN   -O2    -DSPEC_CPU_LP64       Library.cpp
+/usr/bin/g++ -c -o Random.o -DSPEC_CPU -DNDEBUG -DSPEC_CPU_LITTLE_ENDIAN   -O2    -DSPEC_CPU_LP64       Random.cpp
+/usr/bin/g++ -c -o Region_.o -DSPEC_CPU -DNDEBUG -DSPEC_CPU_LITTLE_ENDIAN   -O2    -DSPEC_CPU_LP64       Region_.cpp
+/usr/bin/g++ -c -o RegWay_.o -DSPEC_CPU -DNDEBUG -DSPEC_CPU_LITTLE_ENDIAN   -O2    -DSPEC_CPU_LP64       RegWay_.cpp
+/usr/bin/g++ -c -o Way_.o -DSPEC_CPU -DNDEBUG -DSPEC_CPU_LITTLE_ENDIAN   -O2    -DSPEC_CPU_LP64       Way_.cpp
+/usr/bin/g++   -O2   -DSPEC_CPU_LP64        CreateWay_.o Places_.o RegBounds_.o RegMng_.o Way2_.o WayInit_.o Library.o Random.o Region_.o RegWay_.o Way_.o                     -o astar

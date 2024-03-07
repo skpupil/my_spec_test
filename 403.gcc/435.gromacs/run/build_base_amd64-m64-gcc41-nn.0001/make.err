@@ -1,0 +1,121 @@
+In file included from /usr/include/stdio.h:894,
+                 from calcmu.c:33:
+In function 'fread',
+    inlined from 'read_mu' at calcmu.c:74:7:
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:295:12: warning: call to '__fread_chk_warn' declared with attribute warning: fread called with bigger size * nmemb than length of destination buffer [-Wattribute-warning]
+  295 |     return __fread_chk_warn (__ptr, sz, __size, __n, __stream);
+      |            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+confio.c: In function 'get_w_conf':
+confio.c:426:10: warning: 'strchr' reading 1 or more bytes from a region of size 0 [-Wstringop-overread]
+  426 |       p2=strchr(&p1[1],'.');
+      |          ^~~~~~~~~~~~~~~~~~
+constr.c: In function 'lincs_warning':
+constr.c:658:18: warning: format not a string literal and no format arguments [-Wformat-security]
+  658 |   fprintf(stderr,buf);
+      |                  ^~~
+constr.c:660:22: warning: format not a string literal and no format arguments [-Wformat-security]
+  660 |       fprintf(stdlog,buf);
+      |                      ^~~
+constr.c:673:22: warning: format not a string literal and no format arguments [-Wformat-security]
+  673 |       fprintf(stderr,buf);
+      |                      ^~~
+constr.c:675:26: warning: format not a string literal and no format arguments [-Wformat-security]
+  675 |           fprintf(stdlog,buf);
+      |                          ^~~
+enxio.c: In function 'empty_file':
+enxio.c:181:3: warning: ignoring return value of 'fread' declared with attribute 'warn_unused_result' [-Wunused-result]
+  181 |   fread(&dum,sizeof(dum),1,fp);
+      |   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+genalg.c: In function 'init_ga':
+genalg.c:124:3: warning: ignoring return value of 'fscanf' declared with attribute 'warn_unused_result' [-Wunused-result]
+  124 |   fscanf(fpin_ptr,"%d",&ga->NP);             /*---choice of strategy-----------------*/
+      |   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+genalg.c:125:3: warning: ignoring return value of 'fscanf' declared with attribute 'warn_unused_result' [-Wunused-result]
+  125 |   fscanf(fpin_ptr,"%d",&ga->strategy);       /*---choice of strategy-----------------*/
+      |   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+genalg.c:126:3: warning: ignoring return value of 'fscanf' declared with attribute 'warn_unused_result' [-Wunused-result]
+  126 |   fscanf(fpin_ptr,"%lf",&ff);            /*---weight factor----------------------*/
+      |   ^~~~~~~~~~~~~~~~~~~~~~~~~~
+genalg.c:127:3: warning: ignoring return value of 'fscanf' declared with attribute 'warn_unused_result' [-Wunused-result]
+  127 |   fscanf(fpin_ptr,"%lf",&cr);            /*---crossing over factor---------------*/
+      |   ^~~~~~~~~~~~~~~~~~~~~~~~~~
+genalg.c:128:3: warning: ignoring return value of 'fscanf' declared with attribute 'warn_unused_result' [-Wunused-result]
+  128 |   fscanf(fpin_ptr,"%d",&ga->seed);           /*---random seed------------------------*/
+      |   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ghat.c: In function 'rd_ghat':
+ghat.c:204:3: warning: ignoring return value of 'fscanf' declared with attribute 'warn_unused_result' [-Wunused-result]
+  204 |   fscanf(in,"%d%d%d%lf%lf%lf",&ix,&iy,&iz,&gx,&gy,&gz);
+      |   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ghat.c:207:3: warning: ignoring return value of 'fscanf' declared with attribute 'warn_unused_result' [-Wunused-result]
+  207 |   fscanf(in,"%d%d%d%d%lf%lf%lf",&nalias,porder,&niter,&bSym,&alX,&alY,&alZ);
+      |   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ghat.c:208:3: warning: ignoring return value of 'fscanf' declared with attribute 'warn_unused_result' [-Wunused-result]
+  208 |   fscanf(in,"%lf%lf%lf%lf%lf%lf",&acut,&r11,&pval,&zval,&eref,&qopt);
+      |   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ghat.c:241:9: warning: ignoring return value of 'fscanf' declared with attribute 'warn_unused_result' [-Wunused-result]
+  241 |         fscanf(in,"%lf",&ddd);
+      |         ^~~~~~~~~~~~~~~~~~~~~
+index.c:54:13: warning: conflicting types for built-in function 'yn'; expected 'double(int,  double)' [-Wbuiltin-declaration-mismatch]
+   54 | static bool yn(bool bASK)
+      |             ^~
+nrama.c: In function 'init_rama':
+nrama.c:120:21: warning: '__builtin___sprintf_chk' may write a terminating nul past the end of the destination [-Wformat-overflow=]
+  120 |   sprintf(buf,"%s-%d",*atoms->resname[atoms->atom[ff[1]].resnr],
+      |                     ^
+In file included from /usr/include/stdio.h:894,
+                 from sysstuff.h:49,
+                 from nrama.c:35:
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:38:10: note: '__builtin___sprintf_chk' output 3 or more bytes (assuming 13) into a destination of size 12
+   38 |   return __builtin___sprintf_chk (__s, __USE_FORTIFY_LEVEL - 1,
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   39 |                                   __glibc_objsize (__s), __fmt,
+      |                                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   40 |                                   __va_arg_pack ());
+      |                                   ~~~~~~~~~~~~~~~~~
+pargs.c: In function 'print_pargs':
+pargs.c:293:9: warning: format not a string literal and no format arguments [-Wformat-security]
+  293 |         fprintf(fp,wdesc);
+      |         ^~~~~~~
+rdgroup.c: In function 'init_index':
+rdgroup.c:106:7: warning: ignoring return value of 'fscanf' declared with attribute 'warn_unused_result' [-Wunused-result]
+  106 |       fscanf(in,"%s%d",str,&ng);
+      |       ^~~~~~~~~~~~~~~~~~~~~~~~~
+rdgroup.c:112:9: warning: ignoring return value of 'fscanf' declared with attribute 'warn_unused_result' [-Wunused-result]
+  112 |         fscanf(in,"%d",&a);
+      |         ^~~~~~~~~~~~~~~~~~
+rdgroup.c: In function 'qgroup':
+rdgroup.c:126:3: warning: ignoring return value of 'scanf' declared with attribute 'warn_unused_result' [-Wunused-result]
+  126 |   scanf("%d",a);
+      |   ^~~~~~~~~~~~~
+statutil.c: In function 'parse_common_args':
+statutil.c:698:5: warning: ignoring return value of 'nice' declared with attribute 'warn_unused_result' [-Wunused-result]
+  698 |     nice(nicelevel);
+      |     ^~~~~~~~~~~~~~~
+strdb.c: In function 'get_strings':
+strdb.c:114:5: warning: ignoring return value of 'fscanf' declared with attribute 'warn_unused_result' [-Wunused-result]
+  114 |     fscanf(in,"%s",buf);
+      |     ^~~~~~~~~~~~~~~~~~~
+strdb.c: In function 'fget_lines':
+strdb.c:145:3: warning: ignoring return value of 'fgets' declared with attribute 'warn_unused_result' [-Wunused-result]
+  145 |   fgets(buf,255,in);
+      |   ^~~~~~~~~~~~~~~~~
+trxio.c: In function 'choose_ff':
+trxio.c:399:5: warning: ignoring return value of 'scanf' declared with attribute 'warn_unused_result' [-Wunused-result]
+  399 |     scanf("%d",&i);
+      |     ^~~~~~~~~~~~~~
+trxio.c:413:5: warning: ignoring return value of 'fscanf' declared with attribute 'warn_unused_result' [-Wunused-result]
+  413 |     fscanf(status,"%d%lf%lf%lf%lf",&NATOMS,&BOX[XX],&BOX[YY],&BOX[ZZ],&DT);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+trxio.c:420:5: warning: ignoring return value of 'scanf' declared with attribute 'warn_unused_result' [-Wunused-result]
+  420 |     scanf("%d",&NATOMS);
+      |     ^~~~~~~~~~~~~~~~~~~
+trxio.c:424:5: warning: ignoring return value of 'scanf' declared with attribute 'warn_unused_result' [-Wunused-result]
+  424 |     scanf("%lf",&DT);
+      |     ^~~~~~~~~~~~~~~~
+trxio.c:429:7: warning: ignoring return value of 'scanf' declared with attribute 'warn_unused_result' [-Wunused-result]
+  429 |       scanf("%lf%lf%lf",&BOX[XX],&BOX[YY],&BOX[ZZ]);
+      |       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+viewit.c: In function 'do_view':
+viewit.c:100:9: warning: ignoring return value of 'system' declared with attribute 'warn_unused_result' [-Wunused-result]
+  100 |         system(buf);
+      |         ^~~~~~~~~~~

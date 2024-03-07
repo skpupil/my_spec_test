@@ -1,0 +1,1 @@
+-c /root/asterinas/asterinas/regression/apps/speccpu2006-v1.0.1/benchspec/CPU2006/444.namd/run/run_base_test_amd64-m64-gcc41-nn.0000 -o namd.out.cmp specperl /root/asterinas/asterinas/regression/apps/speccpu2006-v1.0.1/bin/specdiff -m -l 10  --abstol 1e-05 /root/asterinas/asterinas/regression/apps/speccpu2006-v1.0.1/benchspec/CPU2006/444.namd/data/test/output/namd.out namd.out

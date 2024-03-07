@@ -1,0 +1,12 @@
+/usr/bin/g++ -c -o Compute.o -DSPEC_CPU -DNDEBUG    -O2    -DSPEC_CPU_LP64       Compute.C
+/usr/bin/g++ -c -o ComputeList.o -DSPEC_CPU -DNDEBUG    -O2    -DSPEC_CPU_LP64       ComputeList.C
+/usr/bin/g++ -c -o ComputeNonbondedUtil.o -DSPEC_CPU -DNDEBUG    -O2    -DSPEC_CPU_LP64       ComputeNonbondedUtil.C
+/usr/bin/g++ -c -o LJTable.o -DSPEC_CPU -DNDEBUG    -O2    -DSPEC_CPU_LP64       LJTable.C
+/usr/bin/g++ -c -o Molecule.o -DSPEC_CPU -DNDEBUG    -O2    -DSPEC_CPU_LP64       Molecule.C
+/usr/bin/g++ -c -o Patch.o -DSPEC_CPU -DNDEBUG    -O2    -DSPEC_CPU_LP64       Patch.C
+/usr/bin/g++ -c -o PatchList.o -DSPEC_CPU -DNDEBUG    -O2    -DSPEC_CPU_LP64       PatchList.C
+/usr/bin/g++ -c -o ResultSet.o -DSPEC_CPU -DNDEBUG    -O2    -DSPEC_CPU_LP64       ResultSet.C
+/usr/bin/g++ -c -o SimParameters.o -DSPEC_CPU -DNDEBUG    -O2    -DSPEC_CPU_LP64       SimParameters.C
+/usr/bin/g++ -c -o erf.o -DSPEC_CPU -DNDEBUG    -O2    -DSPEC_CPU_LP64       erf.C
+/usr/bin/g++ -c -o spec_namd.o -DSPEC_CPU -DNDEBUG    -O2    -DSPEC_CPU_LP64       spec_namd.C
+/usr/bin/g++   -O2   -DSPEC_CPU_LP64        Compute.o ComputeList.o ComputeNonbondedUtil.o LJTable.o Molecule.o Patch.o PatchList.o ResultSet.o SimParameters.o erf.o spec_namd.o                     -o namd

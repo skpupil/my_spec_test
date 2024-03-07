@@ -1,0 +1,32 @@
+wrf_num_bytes_between.c:17:33: warning: return type defaults to 'int' [-Wimplicit-int]
+   17 | #  define WRF_NUM_BYTES_BETWEEN wrf_num_bytes_between_
+      |                                 ^~~~~~~~~~~~~~~~~~~~~~
+wrf_num_bytes_between.c:26:1: note: in expansion of macro 'WRF_NUM_BYTES_BETWEEN'
+   26 | WRF_NUM_BYTES_BETWEEN ( a , b , n )
+      | ^~~~~~~~~~~~~~~~~~~~~
+wrf_num_bytes_between.c:18:34: warning: return type defaults to 'int' [-Wimplicit-int]
+   18 | #  define GET_INITIAL_DATA_VALUE get_initial_data_value_
+      |                                  ^~~~~~~~~~~~~~~~~~~~~~~
+wrf_num_bytes_between.c:43:1: note: in expansion of macro 'GET_INITIAL_DATA_VALUE'
+   43 | GET_INITIAL_DATA_VALUE ( n )
+      | ^~~~~~~~~~~~~~~~~~~~~~
+wrf_num_bytes_between.c:19:26: warning: return type defaults to 'int' [-Wimplicit-int]
+   19 | #  define WHAT_IS_A_NAN  what_is_a_nan_
+      |                          ^~~~~~~~~~~~~~
+wrf_num_bytes_between.c:50:1: note: in expansion of macro 'WHAT_IS_A_NAN'
+   50 | WHAT_IS_A_NAN ( n )
+      | ^~~~~~~~~~~~~
+wrf_num_bytes_between.c:20:25: warning: return type defaults to 'int' [-Wimplicit-int]
+   20 | #  define WRF_MEM_COPY  wrf_mem_copy_
+      |                         ^~~~~~~~~~~~~
+wrf_num_bytes_between.c:70:1: note: in expansion of macro 'WRF_MEM_COPY'
+   70 | WRF_MEM_COPY ( a , b, n )
+      | ^~~~~~~~~~~~
+pack_utils.c:27:30: warning: return type defaults to 'int' [-Wimplicit-int]
+   27 | #      define INT_PACK_DATA  int_pack_data_
+      |                              ^~~~~~~~~~~~~~
+pack_utils.c:42:1: note: in expansion of macro 'INT_PACK_DATA'
+   42 | INT_PACK_DATA ( unsigned char *buf , int *ninbytes , unsigned char *obuf, int *cursor )
+      | ^~~~~~~~~~~~~
+specmake: execvp: /usr/bin/gcc/bin/gfortran: Not a directory
+specmake: *** [module_driver_constants.fppized.o] Error 127

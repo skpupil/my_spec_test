@@ -1,0 +1,197 @@
+SPOOLES/ETree/src/ETree_transform.c: In function 'ETree_mergeFrontsOne':
+SPOOLES/ETree/src/ETree_transform.c:294:23: warning: passing argument 2 of 'IVinit' makes integer from pointer without a cast [-Wint-conversion]
+  294 | temp = IVinit(nfront, NULL) ;
+      |                       ^~~~
+      |                       |
+      |                       void *
+In file included from SPOOLES/ETree/src/../../Utilities/Utilities.h:37,
+                 from SPOOLES/ETree/src/../../cfiles.h:3,
+                 from SPOOLES/ETree/src/../ETree.h:4,
+                 from SPOOLES/ETree/src/ETree_transform.c:3:
+SPOOLES/ETree/src/../../Utilities/IV.h:139:10: note: expected 'int' but argument is of type 'void *'
+  139 |    int   ival
+      |    ~~~~~~^~~~
+SPOOLES/ETree/src/ETree_transform.c: In function 'ETree_mergeFrontsAll':
+SPOOLES/ETree/src/ETree_transform.c:456:23: warning: passing argument 2 of 'IVinit' makes integer from pointer without a cast [-Wint-conversion]
+  456 | temp = IVinit(nfront, NULL) ;
+      |                       ^~~~
+      |                       |
+      |                       void *
+In file included from SPOOLES/ETree/src/../../Utilities/Utilities.h:37,
+                 from SPOOLES/ETree/src/../../cfiles.h:3,
+                 from SPOOLES/ETree/src/../ETree.h:4,
+                 from SPOOLES/ETree/src/ETree_transform.c:3:
+SPOOLES/ETree/src/../../Utilities/IV.h:139:10: note: expected 'int' but argument is of type 'void *'
+  139 |    int   ival
+      |    ~~~~~~^~~~
+SPOOLES/ETree/src/ETree_transform.c: In function 'ETree_mergeFrontsAny':
+SPOOLES/ETree/src/ETree_transform.c:617:23: warning: passing argument 2 of 'IVinit' makes integer from pointer without a cast [-Wint-conversion]
+  617 | temp = IVinit(nfront, NULL) ;
+      |                       ^~~~
+      |                       |
+      |                       void *
+In file included from SPOOLES/ETree/src/../../Utilities/Utilities.h:37,
+                 from SPOOLES/ETree/src/../../cfiles.h:3,
+                 from SPOOLES/ETree/src/../ETree.h:4,
+                 from SPOOLES/ETree/src/ETree_transform.c:3:
+SPOOLES/ETree/src/../../Utilities/IV.h:139:10: note: expected 'int' but argument is of type 'void *'
+  139 |    int   ival
+      |    ~~~~~~^~~~
+SPOOLES/FrontMtx/src/FrontMtx_IO.c: In function 'FrontMtx_readFromFormattedFile':
+SPOOLES/FrontMtx/src/FrontMtx_IO.c:284:7: warning: ignoring return value of 'fscanf' declared with attribute 'warn_unused_result' [-Wunused-result]
+  284 |       fscanf(fp, " %d", &nmtx) ;
+      |       ^~~~~~~~~~~~~~~~~~~~~~~~
+SPOOLES/FrontMtx/src/FrontMtx_IO.c:297:7: warning: ignoring return value of 'fscanf' declared with attribute 'warn_unused_result' [-Wunused-result]
+  297 |       fscanf(fp, " %d", &nmtx) ;
+      |       ^~~~~~~~~~~~~~~~~~~~~~~~
+SPOOLES/FrontMtx/src/FrontMtx_IO.c:316:4: warning: ignoring return value of 'fscanf' declared with attribute 'warn_unused_result' [-Wunused-result]
+  316 |    fscanf(fp, " %d", &nmtx) ;
+      |    ^~~~~~~~~~~~~~~~~~~~~~~~
+SPOOLES/FrontMtx/src/FrontMtx_IO.c:334:4: warning: ignoring return value of 'fscanf' declared with attribute 'warn_unused_result' [-Wunused-result]
+  334 |    fscanf(fp, " %d", &nmtx) ;
+      |    ^~~~~~~~~~~~~~~~~~~~~~~~
+SPOOLES/FrontMtx/src/FrontMtx_IO.c:347:4: warning: ignoring return value of 'fscanf' declared with attribute 'warn_unused_result' [-Wunused-result]
+  347 |    fscanf(fp, " %d", &nmtx) ;
+      |    ^~~~~~~~~~~~~~~~~~~~~~~~
+SPOOLES/FrontMtx/src/FrontMtx_IO.c:395:7: warning: ignoring return value of 'fscanf' declared with attribute 'warn_unused_result' [-Wunused-result]
+  395 |       fscanf(fp, " %d", &nmtx) ;
+      |       ^~~~~~~~~~~~~~~~~~~~~~~~
+SPOOLES/FrontMtx/src/FrontMtx_IO.c:420:4: warning: ignoring return value of 'fscanf' declared with attribute 'warn_unused_result' [-Wunused-result]
+  420 |    fscanf(fp, " %d", &nmtx) ;
+      |    ^~~~~~~~~~~~~~~~~~~~~~~~
+SPOOLES/FrontMtx/src/FrontMtx_IO.c:439:4: warning: ignoring return value of 'fscanf' declared with attribute 'warn_unused_result' [-Wunused-result]
+  439 |    fscanf(fp, " %d", &nmtx) ;
+      |    ^~~~~~~~~~~~~~~~~~~~~~~~
+SPOOLES/Utilities/src/Utilities_iohb.c: In function 'readHB_info':
+SPOOLES/Utilities/src/Utilities_iohb.c:269:18: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+  269 |     *(*Type+3) = (char) NULL;
+      |                  ^
+SPOOLES/Utilities/src/Utilities_iohb.c: In function 'readHB_header':
+SPOOLES/Utilities/src/Utilities_iohb.c:311:16: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+  311 |     *(Key+8) = (char) NULL;
+      |                ^
+SPOOLES/Utilities/src/Utilities_iohb.c:312:19: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+  312 |     *(Title+72) = (char) NULL;
+      |                   ^
+SPOOLES/Utilities/src/Utilities_iohb.c:347:20: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+  347 |     *(Ptrfmt+16) = (char) NULL;
+      |                    ^
+SPOOLES/Utilities/src/Utilities_iohb.c:348:20: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+  348 |     *(Indfmt+16) = (char) NULL;
+      |                    ^
+SPOOLES/Utilities/src/Utilities_iohb.c:349:20: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+  349 |     *(Valfmt+20) = (char) NULL;
+      |                    ^
+SPOOLES/Utilities/src/Utilities_iohb.c:350:20: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+  350 |     *(Rhsfmt+20) = (char) NULL;
+      |                    ^
+SPOOLES/Utilities/src/Utilities_iohb.c: In function 'readHB_mat_double':
+SPOOLES/Utilities/src/Utilities_iohb.c:457:31: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+  457 |     *(ThisElement+Ptrwidth) = (char) NULL;
+      |                               ^
+SPOOLES/Utilities/src/Utilities_iohb.c:480:31: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+  480 |     *(ThisElement+Indwidth) = (char) NULL;
+      |                               ^
+SPOOLES/Utilities/src/Utilities_iohb.c:508:31: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+  508 |     *(ThisElement+Valwidth) = (char) NULL;
+      |                               ^
+SPOOLES/Utilities/src/Utilities_iohb.c: In function 'readHB_aux_double':
+SPOOLES/Utilities/src/Utilities_iohb.c:708:29: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+  708 |   *(ThisElement+Rhswidth) = (char) NULL;
+      |                             ^
+SPOOLES/Utilities/src/Utilities_iohb.c: In function 'readHB_mat_char':
+SPOOLES/Utilities/src/Utilities_iohb.c:1021:31: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+ 1021 |     *(ThisElement+Ptrwidth) = (char) NULL;
+      |                               ^
+SPOOLES/Utilities/src/Utilities_iohb.c:1044:31: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+ 1044 |     *(ThisElement+Indwidth) = (char) NULL;
+      |                               ^
+SPOOLES/Utilities/src/Utilities_iohb.c:1072:31: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+ 1072 |     *(ThisElement+Valwidth) = (char) NULL;
+      |                               ^
+SPOOLES/Utilities/src/Utilities_iohb.c: In function 'ParseRfmt':
+SPOOLES/Utilities/src/Utilities_iohb.c:1632:20: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+ 1632 |        *(tmp2+1) = (int) NULL;
+      |                    ^
+SPOOLES/Utilities/src/Utilities_iohb.c:1642:32: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+ 1642 |         while ( *(tmp2+len) != (int) NULL ) {
+      |                                ^
+SPOOLES/Utilities/src/Utilities_iohb.c:1646:32: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+ 1646 |         *(strchr(fmt,')')+1) = (int) NULL;
+      |                                ^
+SPOOLES/Utilities/src/Utilities_iohb.c: In function 'substr':
+SPOOLES/Utilities/src/Utilities_iohb.c:1709:17: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+ 1709 |     SubS[len] = (char) NULL;
+      |                 ^
+SPOOLES/Utilities/src/Utilities_iohb.c: In function 'IOHBTerminate':
+SPOOLES/Utilities/src/Utilities_iohb.c:1728:4: warning: format not a string literal and no format arguments [-Wformat-security]
+ 1728 |    fprintf(stderr,message);
+      |    ^~~~~~~
+SPOOLES/Utilities/src/Utilities_iohb.c: In function 'readHB_header':
+SPOOLES/Utilities/src/Utilities_iohb.c:307:5: warning: ignoring return value of 'fgets' declared with attribute 'warn_unused_result' [-Wunused-result]
+  307 |     fgets(line, BUFSIZ, in_file);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+SPOOLES/Utilities/src/Utilities_iohb.c:315:5: warning: ignoring return value of 'fgets' declared with attribute 'warn_unused_result' [-Wunused-result]
+  315 |     fgets(line, BUFSIZ, in_file);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+SPOOLES/Utilities/src/Utilities_iohb.c:325:5: warning: ignoring return value of 'fgets' declared with attribute 'warn_unused_result' [-Wunused-result]
+  325 |     fgets(line, BUFSIZ, in_file);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+SPOOLES/Utilities/src/Utilities_iohb.c:337:5: warning: ignoring return value of 'fgets' declared with attribute 'warn_unused_result' [-Wunused-result]
+  337 |     fgets(line, BUFSIZ, in_file);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+SPOOLES/Utilities/src/Utilities_iohb.c:355:8: warning: ignoring return value of 'fgets' declared with attribute 'warn_unused_result' [-Wunused-result]
+  355 |        fgets(line, BUFSIZ, in_file);
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+SPOOLES/Utilities/src/Utilities_iohb.c: In function 'readHB_mat_double':
+SPOOLES/Utilities/src/Utilities_iohb.c:461:8: warning: ignoring return value of 'fgets' declared with attribute 'warn_unused_result' [-Wunused-result]
+  461 |        fgets(line, BUFSIZ, in_file);
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+SPOOLES/Utilities/src/Utilities_iohb.c:484:8: warning: ignoring return value of 'fgets' declared with attribute 'warn_unused_result' [-Wunused-result]
+  484 |        fgets(line, BUFSIZ, in_file);
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+SPOOLES/Utilities/src/Utilities_iohb.c:512:8: warning: ignoring return value of 'fgets' declared with attribute 'warn_unused_result' [-Wunused-result]
+  512 |        fgets(line, BUFSIZ, in_file);
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+SPOOLES/Utilities/src/Utilities_iohb.c: In function 'readHB_aux_double':
+SPOOLES/Utilities/src/Utilities_iohb.c:675:7: warning: ignoring return value of 'fgets' declared with attribute 'warn_unused_result' [-Wunused-result]
+  675 |       fgets(line, BUFSIZ, in_file);
+      |       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+SPOOLES/Utilities/src/Utilities_iohb.c:686:5: warning: ignoring return value of 'fgets' declared with attribute 'warn_unused_result' [-Wunused-result]
+  686 |     fgets(line, BUFSIZ, in_file);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+SPOOLES/Utilities/src/Utilities_iohb.c:693:12: warning: ignoring return value of 'fgets' declared with attribute 'warn_unused_result' [-Wunused-result]
+  693 |            fgets(line, BUFSIZ, in_file);
+      |            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+SPOOLES/Utilities/src/Utilities_iohb.c:713:12: warning: ignoring return value of 'fgets' declared with attribute 'warn_unused_result' [-Wunused-result]
+  713 |            fgets(line, BUFSIZ, in_file);
+      |            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+SPOOLES/Utilities/src/Utilities_iohb.c:741:12: warning: ignoring return value of 'fgets' declared with attribute 'warn_unused_result' [-Wunused-result]
+  741 |            fgets(line, BUFSIZ, in_file);
+      |            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+SPOOLES/Utilities/src/Utilities_iohb.c: In function 'readHB_mat_char':
+SPOOLES/Utilities/src/Utilities_iohb.c:1025:8: warning: ignoring return value of 'fgets' declared with attribute 'warn_unused_result' [-Wunused-result]
+ 1025 |        fgets(line, BUFSIZ, in_file);
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+SPOOLES/Utilities/src/Utilities_iohb.c:1048:8: warning: ignoring return value of 'fgets' declared with attribute 'warn_unused_result' [-Wunused-result]
+ 1048 |        fgets(line, BUFSIZ, in_file);
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+SPOOLES/Utilities/src/Utilities_iohb.c:1076:8: warning: ignoring return value of 'fgets' declared with attribute 'warn_unused_result' [-Wunused-result]
+ 1076 |        fgets(line, BUFSIZ, in_file);
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+SPOOLES/Utilities/src/Utilities_iohb.c: In function 'readHB_aux_char':
+SPOOLES/Utilities/src/Utilities_iohb.c:1238:7: warning: ignoring return value of 'fgets' declared with attribute 'warn_unused_result' [-Wunused-result]
+ 1238 |       fgets(line, BUFSIZ, in_file);
+      |       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+SPOOLES/Utilities/src/Utilities_iohb.c:1249:5: warning: ignoring return value of 'fgets' declared with attribute 'warn_unused_result' [-Wunused-result]
+ 1249 |     fgets(line, BUFSIZ, in_file);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+SPOOLES/Utilities/src/Utilities_iohb.c:1259:12: warning: ignoring return value of 'fgets' declared with attribute 'warn_unused_result' [-Wunused-result]
+ 1259 |            fgets(line, BUFSIZ, in_file);
+      |            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+SPOOLES/Utilities/src/Utilities_iohb.c:1277:12: warning: ignoring return value of 'fgets' declared with attribute 'warn_unused_result' [-Wunused-result]
+ 1277 |            fgets(line, BUFSIZ, in_file);
+      |            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+SPOOLES/Utilities/src/Utilities_iohb.c:1308:12: warning: ignoring return value of 'fgets' declared with attribute 'warn_unused_result' [-Wunused-result]
+ 1308 |            fgets(line, BUFSIZ, in_file);
+      |            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~

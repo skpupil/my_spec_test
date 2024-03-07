@@ -1,0 +1,9 @@
+running commands in speccmds.cmd 1 times
+runs started at 1709399730, 987633000, Sun Mar  3 01:15:30 2024
+run 1 started at 1709399730, 987652000, Sun Mar  3 01:15:30 2024
+child started: 0, 1709399730, 987656000, pid=2628019, '../run_base_test_amd64-m64-gcc41-nn.0000/calculix_base.amd64-m64-gcc41-nn -i  beampic'
+child finished: 0, 1709399731, 11441000, sec=0, nsec=23785000, pid=2628019, rc=0
+run 1 finished at: 1709399731, 11446000, Sun Mar  3 01:15:31 2024
+run 1 elapsed time: 0, 23794000, 0.023794000
+runs finished at 1709399731, 11472000, Sun Mar  3 01:15:31 2024
+runs elapsed time: 0, 23839000, 0.023839000

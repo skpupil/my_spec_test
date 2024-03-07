@@ -1,0 +1,9 @@
+running commands in speccmds.cmd 1 times
+runs started at 1709393249, 411275000, Sat Mar  2 15:27:29 2024
+run 1 started at 1709393249, 411286000, Sat Mar  2 15:27:29 2024
+child started: 0, 1709393249, 411291000, pid=22487, '../run_base_test_amd64-m64-gcc41-nn.0000/sphinx_livepretend_base.amd64-m64-gcc41-nn ctlfile . args.an4'
+child finished: 0, 1709393250, 277467000, sec=0, nsec=866176000, pid=22487, rc=0
+run 1 finished at: 1709393250, 277473000, Sat Mar  2 15:27:30 2024
+run 1 elapsed time: 0, 866187000, 0.866187000
+runs finished at 1709393250, 277496000, Sat Mar  2 15:27:30 2024
+runs elapsed time: 0, 866221000, 0.866221000

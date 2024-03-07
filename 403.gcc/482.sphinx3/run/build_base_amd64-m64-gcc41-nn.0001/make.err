@@ -1,0 +1,31 @@
+live.c: In function 'live_utt_summary':
+live.c:367:25: warning: format '%d' expects argument of type 'int', but argument 3 has type 'long int' [-Wformat=]
+  367 |     fprintf (confp, "%22d grand total considered\n", tot_considered);
+      |                      ~~~^                            ~~~~~~~~~~~~~~
+      |                         |                            |
+      |                         int                          long int
+      |                      %22ld
+lm.c: In function 'lm_read_dump':
+lm.c:562:9: warning: ignoring return value of 'fread' declared with attribute 'warn_unused_result' [-Wunused-result]
+  562 |         fread (lm->bg, lm->n_bg+1,sizeof(bg_t),lm->fp);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+lm.c:570:9: warning: ignoring return value of 'fread' declared with attribute 'warn_unused_result' [-Wunused-result]
+  570 |         fread (lm->tg,lm->n_tg,sizeof(tg_t),lm->fp);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+new_fe.c: In function 'fe_process_utt':
+new_fe.c:193:97: warning: format '%d' expects argument of type 'int', but argument 5 has type 'long unsigned int' [-Wformat=]
+  193 |         fprintf(stderr,"memory alloc for cep failed in fe_process_utt()\n\tfe_create_2d(%ld,%d,%d)\n...exiting\n",(long int) (frame_count+1),FE->NUM_CEPSTRA,sizeof(float32));  /* typecast to make the compiler happy - EBG */
+      |                                                                                                ~^                                                            ~~~~~~~~~~~~~~~
+      |                                                                                                 |                                                            |
+      |                                                                                                 int                                                          long unsigned int
+      |                                                                                                %ld
+utt.c: In function 'utt_end':
+utt.c:273:27: warning: format '%d' expects argument of type 'int', but argument 3 has type 'long int' [-Wformat=]
+  273 |       fprintf (confp, "%22d considered for utterance %s\n", considered, kb->uttid );
+      |                        ~~~^                                 ~~~~~~~~~~
+      |                           |                                 |
+      |                           int                               long int
+      |                        %22ld
+utt.c:295:11: warning: ignoring return value of 'getcwd' declared with attribute 'warn_unused_result' [-Wunused-result]
+  295 |           getcwd (str, sizeof(str));
+      |           ^~~~~~~~~~~~~~~~~~~~~~~~~

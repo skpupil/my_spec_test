@@ -1,0 +1,2 @@
+-C /home/kk/skpupil/dev/asterinas/regression/apps/speccpu2006/benchspec/CPU2006/454.calculix/run/run_base_test_amd64-m64-gcc41-nn.0000
+-o beampic.log -e beampic.err ../run_base_test_amd64-m64-gcc41-nn.0000/calculix_base.amd64-m64-gcc41-nn -i  beampic

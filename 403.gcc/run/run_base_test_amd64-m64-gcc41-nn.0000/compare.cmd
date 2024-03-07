@@ -1,0 +1,1 @@
+-c /root/asterinas/asterinas/regression/apps/speccpu2006-v1.0.1/benchspec/CPU2006/403.gcc/run/run_base_test_amd64-m64-gcc41-nn.0000 -o cccp.s.cmp specperl /root/asterinas/asterinas/regression/apps/speccpu2006-v1.0.1/bin/specdiff -m -l 10 /root/asterinas/asterinas/regression/apps/speccpu2006-v1.0.1/benchspec/CPU2006/403.gcc/data/test/output/cccp.s cccp.s

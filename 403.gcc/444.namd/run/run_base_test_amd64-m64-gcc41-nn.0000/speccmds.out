@@ -1,0 +1,9 @@
+running commands in speccmds.cmd 1 times
+runs started at 1709393210, 43162000, Sat Mar  2 15:26:50 2024
+run 1 started at 1709393210, 43169000, Sat Mar  2 15:26:50 2024
+child started: 0, 1709393210, 43173000, pid=22455, '../run_base_test_amd64-m64-gcc41-nn.0000/namd_base.amd64-m64-gcc41-nn --input namd.input --iterations 1 --output namd.out'
+child finished: 0, 1709393216, 864611000, sec=6, nsec=821438000, pid=22455, rc=0
+run 1 finished at: 1709393216, 864615000, Sat Mar  2 15:26:56 2024
+run 1 elapsed time: 6, 821446000, 6.821446000
+runs finished at 1709393216, 864640000, Sat Mar  2 15:26:56 2024
+runs elapsed time: 6, 821478000, 6.821478000

@@ -1,0 +1,2 @@
+-C /root/asterinas/asterinas/regression/apps/speccpu2006-v1.0.1/benchspec/CPU2006/444.namd/run/run_base_test_amd64-m64-gcc41-nn.0000
+-o namd.stdout -e namd.err ../run_base_test_amd64-m64-gcc41-nn.0000/namd_base.amd64-m64-gcc41-nn --input namd.input --iterations 1 --output namd.out 
