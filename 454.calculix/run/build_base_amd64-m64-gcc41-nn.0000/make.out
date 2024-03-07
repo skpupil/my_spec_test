@@ -1,0 +1,2 @@
+/usr/bin/gcc -c -o CalculiX.o -DSPEC_CPU -DNDEBUG -ISPOOLES   -O2        -DSPEC_CPU_LP64         CalculiX.c
+/usr/bin/gcc/bin/gfortran -c -o add_pr.o -ISPOOLES   -O2       -DSPEC_CPU_LP64         add_pr.f

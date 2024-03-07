@@ -1,0 +1,11 @@
+running commands in compare.cmd 1 times
+runs started at 1709393170, 795849000, Sat Mar  2 15:26:10 2024
+run 1 started at 1709393170, 795854000, Sat Mar  2 15:26:10 2024
+child started: 0, 1709393170, 795858000, pid=22428, 'specperl /root/asterinas/asterinas/regression/apps/speccpu2006-v1.0.1/bin/specdiff -m -l 10  --abstol 1e-06  --reltol 1e-05 /root/asterinas/asterinas/regression/apps/speccpu2006-v1.0.1/benchspec/CPU2006/471.omnetpp/data/test/output/omnetpp.log omnetpp.log'
+child finished: 0, 1709393170, 829093000, sec=0, nsec=33235000, pid=22428, rc=0
+child started: 0, 1709393170, 829109000, pid=22430, 'specperl /root/asterinas/asterinas/regression/apps/speccpu2006-v1.0.1/bin/specdiff -m -l 10  --abstol 1e-06  --reltol 1e-05 /root/asterinas/asterinas/regression/apps/speccpu2006-v1.0.1/benchspec/CPU2006/471.omnetpp/data/test/output/omnetpp.sca omnetpp.sca'
+child finished: 0, 1709393170, 865053000, sec=0, nsec=35944000, pid=22430, rc=0
+run 1 finished at: 1709393170, 865061000, Sat Mar  2 15:26:10 2024
+run 1 elapsed time: 0, 69207000, 0.069207000
+runs finished at 1709393170, 865084000, Sat Mar  2 15:26:10 2024
+runs elapsed time: 0, 69235000, 0.069235000

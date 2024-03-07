@@ -1,0 +1,11 @@
+running commands in compare.cmd 1 times
+runs started at 1709393166, 539528000, Sat Mar  2 15:26:06 2024
+run 1 started at 1709393166, 539535000, Sat Mar  2 15:26:06 2024
+child started: 0, 1709393166, 539540000, pid=22419, 'specperl /root/asterinas/asterinas/regression/apps/speccpu2006-v1.0.1/bin/specdiff -m -l 10  --cw  --floatcompare /root/asterinas/asterinas/regression/apps/speccpu2006-v1.0.1/benchspec/CPU2006/464.h264ref/data/test/output/foreman_test_baseline_encodelog.out foreman_test_baseline_encodelog.out'
+child finished: 0, 1709393166, 572640000, sec=0, nsec=33100000, pid=22419, rc=0
+child started: 0, 1709393166, 572675000, pid=22421, 'specperl /root/asterinas/asterinas/regression/apps/speccpu2006-v1.0.1/bin/specdiff -m -l 10  --binary  --cw  --floatcompare /root/asterinas/asterinas/regression/apps/speccpu2006-v1.0.1/benchspec/CPU2006/464.h264ref/data/test/output/foreman_test_baseline_leakybucketparam.cfg foreman_test_baseline_leakybucketparam.cfg'
+child finished: 0, 1709393166, 609125000, sec=0, nsec=36450000, pid=22421, rc=0
+run 1 finished at: 1709393166, 609130000, Sat Mar  2 15:26:06 2024
+run 1 elapsed time: 0, 69595000, 0.069595000
+runs finished at 1709393166, 609158000, Sat Mar  2 15:26:06 2024
+runs elapsed time: 0, 69630000, 0.069630000

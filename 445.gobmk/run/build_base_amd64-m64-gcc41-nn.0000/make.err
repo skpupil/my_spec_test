@@ -1,0 +1,42 @@
+engine/reading.c: In function 'defend2':
+engine/reading.c:1342:5: warning: 'special_rescue5_moves' accessing 12 bytes in a region of size 8 [-Wstringop-overflow=]
+ 1342 |     special_rescue5_moves(str, libs, &moves);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+engine/reading.c:1342:5: note: referencing argument 2 of type 'int *'
+engine/reading.c:1931:1: note: in a call to function 'special_rescue5_moves'
+ 1931 | special_rescue5_moves(int str, int libs[3],
+      | ^~~~~~~~~~~~~~~~~~~~~
+engine/sgffile.c: In function 'sgffile_add_debuginfo':
+engine/sgffile.c:80:38: warning: '%d' directive writing between 1 and 10 bytes into a region of size 9 [-Wformat-overflow=]
+   80 |     sprintf(comment, "Value of move: %d", value);
+      |                                      ^~
+engine/sgffile.c:80:22: note: directive argument in the range [1, 2147483647]
+   80 |     sprintf(comment, "Value of move: %d", value);
+      |                      ^~~~~~~~~~~~~~~~~~~
+In file included from /usr/include/stdio.h:894,
+                 from engine/gnugo.h:33,
+                 from engine/sgffile.c:33:
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:38:10: note: '__builtin___sprintf_chk' output between 17 and 26 bytes into a destination of size 24
+   38 |   return __builtin___sprintf_chk (__s, __USE_FORTIFY_LEVEL - 1,
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   39 |                                   __glibc_objsize (__s), __fmt,
+      |                                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   40 |                                   __va_arg_pack ());
+      |                                   ~~~~~~~~~~~~~~~~~
+interface/play_ascii.c: In function 'play_ascii':
+interface/play_ascii.c:821:11: warning: ignoring return value of 'fgets' declared with attribute 'warn_unused_result' [-Wunused-result]
+  821 |           fgets(line, 80, stdin);
+      |           ^~~~~~~~~~~~~~~~~~~~~~
+patterns/dfa.c: In function 'dump_dfa':
+patterns/dfa.c:399:3: warning: format not a string literal and no format arguments [-Wformat-security]
+  399 |   fprintf(f, line);
+      |   ^~~~~~~
+patterns/dfa.c:406:3: warning: format not a string literal and no format arguments [-Wformat-security]
+  406 |   fprintf(f, line);
+      |   ^~~~~~~
+patterns/dfa.c:411:3: warning: format not a string literal and no format arguments [-Wformat-security]
+  411 |   fprintf(f, line);
+      |   ^~~~~~~
+patterns/dfa.c:429:3: warning: format not a string literal and no format arguments [-Wformat-security]
+  429 |   fprintf(f, line);
+      |   ^~~~~~~

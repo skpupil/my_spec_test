@@ -1,0 +1,73 @@
+configfile.c: In function 'PatchInp':
+configfile.c:837:11: warning: ignoring return value of 'fscanf' declared with attribute 'warn_unused_result' [-Wunused-result]
+  837 |           fscanf(sgfile,"%d",(input->run_length_minus1+i));
+      |           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+configfile.c:838:11: warning: ignoring return value of 'fscanf' declared with attribute 'warn_unused_result' [-Wunused-result]
+  838 |           fscanf(sgfile,"%*[^\n]");
+      |           ^~~~~~~~~~~~~~~~~~~~~~~~
+configfile.c:854:11: warning: ignoring return value of 'fscanf' declared with attribute 'warn_unused_result' [-Wunused-result]
+  854 |           fscanf(sgfile,"%d",(input->top_left+i));
+      |           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+configfile.c:855:11: warning: ignoring return value of 'fscanf' declared with attribute 'warn_unused_result' [-Wunused-result]
+  855 |           fscanf(sgfile,"%*[^\n]");
+      |           ^~~~~~~~~~~~~~~~~~~~~~~~
+configfile.c:856:11: warning: ignoring return value of 'fscanf' declared with attribute 'warn_unused_result' [-Wunused-result]
+  856 |           fscanf(sgfile,"%d",(input->bottom_right+i));
+      |           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+configfile.c:857:11: warning: ignoring return value of 'fscanf' declared with attribute 'warn_unused_result' [-Wunused-result]
+  857 |           fscanf(sgfile,"%*[^\n]");
+      |           ^~~~~~~~~~~~~~~~~~~~~~~~
+configfile.c:877:11: warning: ignoring return value of 'fscanf' declared with attribute 'warn_unused_result' [-Wunused-result]
+  877 |           fscanf(sgfile,"%d", &tmp);
+      |           ^~~~~~~~~~~~~~~~~~~~~~~~~
+configfile.c:884:11: warning: ignoring return value of 'fscanf' declared with attribute 'warn_unused_result' [-Wunused-result]
+  884 |           fscanf(sgfile,"%*[^\n]");
+      |           ^~~~~~~~~~~~~~~~~~~~~~~~
+fmo.c: In function 'FmoGenerateMapUnitToSliceGroupMap':
+fmo.c:114:32: warning: format '%d' expects argument of type 'int', but argument 2 has type 'long unsigned int' [-Wformat=]
+  114 |     printf ("cannot allocated %d bytes for MapUnitToSliceGroupMap, exit\n", PicSizeInMapUnits * sizeof (byte));
+      |                               ~^                                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                |                                                              |
+      |                                int                                                            long unsigned int
+      |                               %ld
+fmo.c: In function 'FmoGenerateMBAmap':
+fmo.c:178:32: warning: format '%d' expects argument of type 'int', but argument 2 has type 'long unsigned int' [-Wformat=]
+  178 |     printf ("cannot allocated %d bytes for MBAmap, exit\n", (img->PicSizeInMbs) * sizeof (byte));
+      |                               ~^                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                |                                                |
+      |                                int                                              long unsigned int
+      |                               %ld
+mv-search.c: In function 'SATD':
+mv-search.c:1093:29: warning: iteration 15 invokes undefined behavior [-Waggressive-loop-optimizations]
+ 1093 |     for (dd=d[k=0]; k<16; dd=d[++k])
+      |                           ~~^~~~~~~
+mv-search.c:1093:22: note: within this loop
+ 1093 |     for (dd=d[k=0]; k<16; dd=d[++k])
+      |                     ~^~~
+output.c: In function 'write_out_picture':
+output.c:237:5: warning: ignoring return value of 'write' declared with attribute 'warn_unused_result' [-Wunused-result]
+  237 |     write(p_out, buf, (p->size_y_cr-crop_bottom-crop_top)*(p->size_x_cr-crop_right-crop_left)*symbol_size_in_bytes);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+output.c:253:3: warning: ignoring return value of 'write' declared with attribute 'warn_unused_result' [-Wunused-result]
+  253 |   write(p_out, buf, (p->size_y-crop_bottom-crop_top)*(p->size_x-crop_right-crop_left)*symbol_size_in_bytes);
+      |   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+output.c:263:5: warning: ignoring return value of 'write' declared with attribute 'warn_unused_result' [-Wunused-result]
+  263 |     write(p_out, buf, (p->size_y_cr-crop_bottom-crop_top)*(p->size_x_cr-crop_right-crop_left)*symbol_size_in_bytes);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+output.c:268:7: warning: ignoring return value of 'write' declared with attribute 'warn_unused_result' [-Wunused-result]
+  268 |       write(p_out, buf, (p->size_y_cr-crop_bottom-crop_top)*(p->size_x_cr-crop_right-crop_left)*symbol_size_in_bytes);
+      |       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+q_matrix.c: In function 'Init_QMatrix':
+q_matrix.c:377:15: warning: comparison between pointer and zero character constant [-Wpointer-compare]
+  377 |     if(content!='\0')
+      |               ^~
+q_matrix.c:377:8: note: did you mean to dereference the pointer?
+  377 |     if(content!='\0')
+      |        ^
+q_offsets.c: In function 'Init_QOffsetMatrix':
+q_offsets.c:302:15: warning: comparison between pointer and zero character constant [-Wpointer-compare]
+  302 |     if(content!='\0')
+      |               ^~
+q_offsets.c:302:8: note: did you mean to dereference the pointer?
+  302 |     if(content!='\0')
+      |        ^

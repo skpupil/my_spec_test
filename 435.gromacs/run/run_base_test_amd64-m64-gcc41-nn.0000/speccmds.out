@@ -1,0 +1,9 @@
+running commands in speccmds.cmd 1 times
+runs started at 1709399681, 912331000, Sun Mar  3 01:14:41 2024
+run 1 started at 1709399681, 912347000, Sun Mar  3 01:14:41 2024
+child started: 0, 1709399681, 912350000, pid=2627693, '../run_base_test_amd64-m64-gcc41-nn.0000/gromacs_base.amd64-m64-gcc41-nn -silent -deffnm gromacs -nice 0'
+child finished: 0, 1709399682, 328706000, sec=0, nsec=416356000, pid=2627693, rc=0
+run 1 finished at: 1709399682, 328711000, Sun Mar  3 01:14:42 2024
+run 1 elapsed time: 0, 416364000, 0.416364000
+runs finished at 1709399682, 328735000, Sun Mar  3 01:14:42 2024
+runs elapsed time: 0, 416404000, 0.416404000

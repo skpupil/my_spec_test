@@ -1,0 +1,9 @@
+running commands in speccmds.cmd 1 times
+runs started at 1709393149, 819472000, Sat Mar  2 15:25:49 2024
+run 1 started at 1709393149, 819490000, Sat Mar  2 15:25:49 2024
+child started: 0, 1709393149, 819496000, pid=22416, '../run_base_test_amd64-m64-gcc41-nn.0000/h264ref_base.amd64-m64-gcc41-nn -d foreman_test_encoder_baseline.cfg'
+child finished: 0, 1709393158, 529224000, sec=8, nsec=709728000, pid=22416, rc=0
+run 1 finished at: 1709393158, 529229000, Sat Mar  2 15:25:58 2024
+run 1 elapsed time: 8, 709739000, 8.709739000
+runs finished at 1709393158, 529254000, Sat Mar  2 15:25:58 2024
+runs elapsed time: 8, 709782000, 8.709782000
